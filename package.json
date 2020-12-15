@@ -2,6 +2,7 @@
   "name": "brixiety",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://brixiety.herokuapp.com",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -35,6 +36,5 @@
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.31",
     "mongoose": "^5.10.5"
-  },
-  "homepage": "https://github.com/roblingjohn/brixiety#readme"
+  }
 }
