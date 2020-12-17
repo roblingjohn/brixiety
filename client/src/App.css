@@ -5,3 +5,8 @@
 .navlink {
   margin: 3px;
 }
+
+.comicImg {
+  max-width: 60%;
+  max-height: 600px;
+}
