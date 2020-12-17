@@ -14,6 +14,9 @@ const OTNavbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
+          <Link to="/" className="navlink">
+              Home
+            </Link>
             <Link to="/archive" className="navlink">
               Archive
             </Link>
