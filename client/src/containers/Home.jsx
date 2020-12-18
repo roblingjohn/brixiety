@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Comic from "../components/Comic"
+import ComicDisplay from "../components/ComicDisplay"
 
 class Home extends Component {
     render() {
         return (
             <div>
-                <Comic />
+                <ComicDisplay />
             </div>
         );
     }
