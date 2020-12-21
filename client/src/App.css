@@ -10,3 +10,13 @@
   max-width: 60%;
   max-height: 600px;
 }
+
+.navButton {
+  width: 80px;
+  margin: 5px;
+}
+
+.navRow {
+  width: 420px;
+  margin: auto;
+}
