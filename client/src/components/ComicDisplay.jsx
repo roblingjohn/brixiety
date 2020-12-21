@@ -3,14 +3,39 @@ import Comic from "./Comic";
 import NavButtons from "./NavButtons";
 
 class ComicDisplay extends Component {
-  comicId = parseInt(this.props.id);
+  state = {
+    comic: {
+      id: this.props.id,
+    },
+  };
+
+  static getDerivedStateFromProps(props, state) {
+    if (props.id !== state.comic.id) {
+      return {
+        comic: {
+          id: props.id,
+        },
+      };
+    }
+    return null;
+  }
+
+  componentDidMount() {
+    this.setState({
+      comic: {
+        id: this.props.id
+      }
+    })
+  }
+
+  comicId = parseInt(this.state.comic.id);
 
   render() {
     return (
       <div>
-        <NavButtons comicId={this.comicId} />
-        <Comic comicId={this.comicId} />
-        <NavButtons comicId={this.comicId} />
+        <NavButtons id={this.state.comic.id} />
+        <Comic id={this.state.comic.id} />
+        <NavButtons id={this.state.comic.id} />
       </div>
     );
   }
