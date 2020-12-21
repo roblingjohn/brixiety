@@ -2,26 +2,38 @@ import React, { Component } from "react";
 
 class Comic extends Component {
   state = {
-    comics: [
+    comic: 
       {
         comicTitle: "For Fun",
-        comicNumber: 1,
+        id: this.props.id,
       },
-    ],
+    
 
     
   };
-  currentComic = this.state.comics[0]
+  currentComic = this.state.comic
+
+  static getDerivedStateFromProps(props, state) {
+    if (props.id !== state.comic.id) {
+      return {
+        comic: {
+          id: props.id,
+        },
+      };
+    }
+    return null;
+  }
 
   render() {
     return (
       <div>
         <h1>{this.currentComic.comicTitle}</h1>
-        <img
+        <h2>Comic: {this.state.comic.id}</h2>
+        {/* <img
           src={require(`../assets/comics/${this.currentComic.comicNumber}.png`)}
           className="comicImg"
           alt={`Brixiety #${this.currentComic.comicNumber}: "${this.currentComic.comicTitle}"`}
-        />
+        /> */}
       </div>
     );
   }
