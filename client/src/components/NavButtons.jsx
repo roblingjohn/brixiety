@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { Row, Col } from "react-bootstrap";
 
 class NavButtons extends Component {
   state = {
@@ -57,27 +58,39 @@ class NavButtons extends Component {
 
   render() {
     return (
-      <div>
-        <h2>NavButtons: {this.state.comic.id}</h2>
-        <Link to="/comic/1" id={1}>
-          <button>Oldest</button>
-        </Link>
-        <Link
-          to={`/comic/${this.state.comic.id - 1}`}
-          id={this.state.comic.id - 1}
-        >
-          <button>Previous</button>
-        </Link>
-        <Link
-          to={`/comic/${parseInt(this.state.comic.id) + 1}`}
-          id={parseInt(this.state.comic.id) + 1}
-        >
-          <button>Next</button>
-        </Link>
-        <Link to={`/comic/100`}>
-          <button>Newest</button>
-        </Link>
-      </div>
+      <Row className="navRow">
+        <Col>
+          {this.state.comic.id > 1 && (
+            <div>
+              <Link to="/comic/1" id={1}>
+                <button className="navButton">Oldest</button>
+              </Link>
+              <Link
+                to={`/comic/${this.state.comic.id - 1}`}
+                id={this.state.comic.id - 1}
+              >
+                <button className="navButton">Previous</button>
+              </Link>{" "}
+            </div>
+          )}
+        </Col>
+
+        <Col>
+          {this.state.comic.id < 100 && (
+            <div>
+              <Link
+                to={`/comic/${parseInt(this.state.comic.id) + 1}`}
+                id={parseInt(this.state.comic.id) + 1}
+              >
+                <button className="navButton">Next</button>
+              </Link>
+              <Link to={`/comic/100`}>
+                <button className="navButton">Newest</button>
+              </Link>
+            </div>
+          )}
+        </Col>
+      </Row>
     );
   }
 }

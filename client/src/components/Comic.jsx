@@ -28,12 +28,12 @@ class Comic extends Component {
     return (
       <div>
         <h1>{this.currentComic.comicTitle}</h1>
-        <h2>Comic: {this.state.comic.id}</h2>
-        {/* <img
-          src={require(`../assets/comics/${this.currentComic.comicNumber}.png`)}
+        {/* <h2>Comic: {this.state.comic.id}</h2> */}
+        <img
+          src={require(`../assets/comics/1.png`)}
           className="comicImg"
           alt={`Brixiety #${this.currentComic.comicNumber}: "${this.currentComic.comicTitle}"`}
-        /> */}
+        />
       </div>
     );
   }
