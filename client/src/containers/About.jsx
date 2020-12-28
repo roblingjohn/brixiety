@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class About extends Component {
   render() {
     return (
-      <div className="aboutBox">
+      <div className="container">
           <h1>Brixiety</h1>
           <h4>Because LEGO is (maybe slightly) Cheaper Than Therapy</h4>
         <p className="aboutText">

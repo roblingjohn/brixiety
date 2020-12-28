@@ -21,11 +21,16 @@
   margin: auto;
 }
 
-.aboutBox {
+.aboutText {
+  text-align: left;
+}
+
+.container {
   max-width: 800px;
   margin: auto;
 }
 
-.aboutText {
+.socials {
   text-align: left;
+  list-style: none;
 }
