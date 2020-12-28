@@ -20,3 +20,20 @@
   width: 420px;
   margin: auto;
 }
+
+.aboutText {
+  text-align: left;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.pageText {
+  text-align: left;
+}
+
+li {
+  list-style: none;
+}
