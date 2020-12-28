@@ -5,16 +5,16 @@ import { Link } from "react-router-dom";
 const OTNavbar = () => {
   return (
     <div>
-      <Navbar bg="light" expand="lg">
+      <Navbar className="navbar">
         <Navbar.Brand>
-          <Link to="/" className="brandLink">
-            Brixiety
+          <Link to="/" className="brandLink navLink">
+            BRIXIETY
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-          <Link to="/" className="navlink">
+            <Link to="/" className="navlink">
               Home
             </Link>
             <Link to="/archive" className="navlink">

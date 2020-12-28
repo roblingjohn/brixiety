@@ -1,14 +1,41 @@
+body {
+  background-color: #afb5c7;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #0055bf;
+}
+
 .App {
   text-align: center;
 }
 
 .navlink {
-  margin: 3px;
+  margin: 7px;
+  color: #ffffff;
+}
+
+.brandLink {
+  color: #b4d2e3;
+}
+
+button {
+  background-color: #6c6e68;
+  color: #ffffff;
+  border: none;
+  height: 40px;
+  width: 80px;
+}
+
+a {
+  color: #0055bf;
 }
 
 .comicImg {
   max-width: 60%;
   max-height: 500px;
+  border: black solid 1px;
 }
 
 .navButton {
@@ -28,10 +55,15 @@
 .container {
   max-width: 800px;
   margin: auto;
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding: 5px;
+  border: black solid 1px;
 }
 
 .pageText {
   text-align: left;
+  padding: 5px;
 }
 
 li {
