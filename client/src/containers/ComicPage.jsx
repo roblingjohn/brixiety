@@ -45,7 +45,6 @@ class ComicPage extends Component {
     return (
       <div>
         <ComicDisplay id={this.state.comic.id} />
-        {this.state.comic.id}
       </div>
     );
   }

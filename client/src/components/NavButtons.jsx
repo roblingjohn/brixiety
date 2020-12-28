@@ -10,10 +10,12 @@ class NavButtons extends Component {
   };
 
   componentDidMount = () => {
-    this.setState({
-      comic: {
-        id: this.props.id,
-      },
+    this.setState(() => {
+      return {
+        comic: {
+          id: this.props.id,
+        },
+      };
     });
   };
 
@@ -76,7 +78,7 @@ class NavButtons extends Component {
         </Col>
 
         <Col>
-          {this.state.comic.id < 100 && (
+          {this.state.comic.id < 2 && (
             <div>
               <Link
                 to={`/comic/${parseInt(this.state.comic.id) + 1}`}
@@ -84,7 +86,7 @@ class NavButtons extends Component {
               >
                 <button className="navButton">Next</button>
               </Link>
-              <Link to={`/comic/100`}>
+              <Link to={`/comic/2`}>
                 <button className="navButton">Newest</button>
               </Link>
             </div>
