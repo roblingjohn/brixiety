@@ -9,7 +9,7 @@ class Socials extends Component {
           These are all the official social media pages for Brixiety. Anyone
           else claiming to be us is fake.
         </p>
-        <ul className="socials">
+        <ul className="pageText">
           <li>
             Facebook: <a href="https://www.facebook.com/brixiety">brixiety</a>
           </li>

@@ -1,13 +1,24 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import comicData from "../assets/comicData/comicData";
+import { Link } from "react-router-dom";
 
 class Archive extends Component {
-    render() {
-        return (
-            <div>
-                <h1>Archive goes here.</h1>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div className="container">
+        <h1>Archive</h1>
+        <ul className="pageText">
+          {comicData.map((comic) => (
+            <Link to={`/comic/${comic.comicNumber}`}>
+              <li>
+                {comic.comicNumber}: {comic.comicTitle}
+              </li>
+            </Link>
+          ))}
+        </ul>
+      </div>
+    );
+  }
 }
 
 export default Archive;

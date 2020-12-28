@@ -30,7 +30,10 @@
   margin: auto;
 }
 
-.socials {
+.pageText {
   text-align: left;
+}
+
+li {
   list-style: none;
 }

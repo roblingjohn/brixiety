@@ -6,7 +6,7 @@ class About extends Component {
       <div className="container">
           <h1>Brixiety</h1>
           <h4>Because LEGO is (maybe slightly) Cheaper Than Therapy</h4>
-        <p className="aboutText">
+        <p className="pageText">
           As a fan of webcomics, I came across a lot of comics that were very
           relatable to me. This made me want to make my own webcomic so I could
           share my experiences, especially with anxiety, in hopes that other
