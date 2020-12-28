@@ -20,3 +20,12 @@
   width: 420px;
   margin: auto;
 }
+
+.aboutBox {
+  max-width: 800px;
+  margin: auto;
+}
+
+.aboutText {
+  text-align: left;
+}
