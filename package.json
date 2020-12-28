@@ -2,7 +2,7 @@
   "name": "brixiety",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://brixiety.herokuapp.com",
+  "homepage": "https://brixiety.com",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
