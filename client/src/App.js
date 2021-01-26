@@ -8,6 +8,7 @@ import Socials from "./containers/Socials";
 import Navbar from "./components/Navbar";
 import ComicPage from "./containers/ComicPage";
 import PageNotFound from "./containers/PageNotFound";
+import Copyright from "./components/Copyright";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="*" component={PageNotFound} />
         </Switch>
       </Router>
+      <Copyright />
     </div>
   );
 }
