@@ -7,6 +7,8 @@ import About from "./containers/About";
 import Socials from "./containers/Socials";
 import Navbar from "./components/Navbar";
 import ComicPage from "./containers/ComicPage";
+import PageNotFound from "./containers/PageNotFound";
+import Copyright from "./components/Copyright";
 
 function App() {
   return (
@@ -19,8 +21,10 @@ function App() {
           <Route exact path="/socials" component={Socials} />
           <Route exact path="/comic/:id" component={ComicPage} />
           <Route exact path="/" component={Home} />
+          <Route path="*" component={PageNotFound} />
         </Switch>
       </Router>
+      <Copyright />
     </div>
   );
 }
