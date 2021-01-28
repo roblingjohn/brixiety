@@ -72,7 +72,7 @@ class NavButtons extends Component {
                 to={`/comic/${this.state.comic.id - 1}`}
                 id={this.state.comic.id - 1}
               >
-                <button className="navButton">Previous</button>
+                <button className="navButton">Older</button>
               </Link>{" "}
             </div>
           )}
@@ -85,7 +85,7 @@ class NavButtons extends Component {
                 to={`/comic/${parseInt(this.state.comic.id) + 1}`}
                 id={parseInt(this.state.comic.id) + 1}
               >
-                <button className="navButton">Next</button>
+                <button className="navButton">Newer</button>
               </Link>
               <Link to={`/comic/2`}>
                 <button className="navButton">Newest</button>
