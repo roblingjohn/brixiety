@@ -87,7 +87,7 @@ class NavButtons extends Component {
               >
                 <button className="navButton">Newer</button>
               </Link>
-              <Link to={`/comic/2`}>
+              <Link to={`/comic/${comicData.length}`}>
                 <button className="navButton">Newest</button>
               </Link>
             </div>
