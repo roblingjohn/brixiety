@@ -62,7 +62,7 @@ class NavButtons extends Component {
   render() {
     return (
       <Row className="navRow">
-        <Col>
+        <Col className="navCol">
           {this.state.comic.id > 1 && (
             <div>
               <Link to="/comic/1" id={1}>

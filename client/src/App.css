@@ -5,6 +5,7 @@ body {
 
 .navbar {
   background-color: #0055bf;
+  width: 100%
 }
 
 .App {
@@ -33,19 +34,26 @@ a {
 }
 
 .comicImg {
-  max-width: 60%;
+  max-width: 95%;
   max-height: 500px;
   border: black solid 1px;
 }
 
 .navButton {
-  width: 80px;
-  margin: 5px;
+  width: 70px;
+  margin: 2px;
+  margin-top: 5px;
 }
 
 .navRow {
   width: 420px;
+  max-width: 100%;
   margin: auto;
+}
+
+.navCol {
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .aboutText {
@@ -73,3 +81,5 @@ a {
 li {
   list-style: none;
 }
+
+
