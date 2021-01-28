@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
+import comicData from "../assets/comicData/comicData"
 
 class NavButtons extends Component {
   state = {
@@ -78,7 +79,7 @@ class NavButtons extends Component {
         </Col>
 
         <Col>
-          {this.state.comic.id < 2 && (
+          {this.state.comic.id < comicData.length && (
             <div>
               <Link
                 to={`/comic/${parseInt(this.state.comic.id) + 1}`}
