@@ -11,7 +11,7 @@ class Socials extends Component {
         </p>
         <ul className="pageText">
           <li>
-            Facebook: <a href="https://www.facebook.com/Brixiety-102154248568131">brixiety</a>
+            Facebook: <a href="https://www.facebook.com/brixiety">brixiety</a>
           </li>
           <li>
             Instagram:{" "}
