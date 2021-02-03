@@ -17,7 +17,7 @@ body {
   color: #ffffff;
 }
 
-.brandLink {
+.brandLink, a.brandLink {
   color: #b4d2e3;
 }
 
