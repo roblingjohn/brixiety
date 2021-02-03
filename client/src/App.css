@@ -17,7 +17,7 @@ body {
   color: #ffffff;
 }
 
-.brandLink {
+.brandLink, a.brandLink {
   color: #b4d2e3;
 }
 
@@ -31,6 +31,10 @@ button {
 
 a {
   color: #0055bf;
+}
+
+a.navlink {
+  color: white;
 }
 
 .comicImg {
