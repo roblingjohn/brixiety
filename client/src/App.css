@@ -33,6 +33,10 @@ a {
   color: #0055bf;
 }
 
+a.navlink {
+  color: white;
+}
+
 .comicImg {
   max-width: 95%;
   max-height: 500px;
