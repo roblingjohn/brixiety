@@ -3,7 +3,7 @@ import comicData from "../assets/comicData/comicData";
 import { Link } from "react-router-dom";
 
 class Archive extends Component {
-  comicArray = comicData.reverse();
+  comicArray = comicData;
 
   // componentDidMount() {
   //   console.log(comicData.reverse())
@@ -15,7 +15,7 @@ class Archive extends Component {
       <div className="container">
         <h1>Archive</h1>
         <ul className="pageText">
-          {comicData.reverse().map((comic) => (
+          {this.comicArray.reverse().map((comic) => (
             <Link to={`/comic/${comic.comicNumber}`}>
               <li>
                 {comic.comicNumber}: {comic.comicTitle}
