@@ -3,4 +3,5 @@ export default [
   { comicNumber: 2, comicTitle: "Mystery Text" },
   { comicNumber: 3, comicTitle: "Diet and Exercise" },
   { comicNumber: 4, comicTitle: "Ready to Go" },
+  { comicNumber: 5, comicTitle: "You Can Do This" },
 ];
