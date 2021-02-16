@@ -16,11 +16,10 @@ class Archive extends Component {
         <h1>Archive</h1>
         <ul className="pageText">
           {this.comicArray.reverse().map((comic) => (
-            <Link to={`/comic/${comic.comicNumber}`}>
-              <li>
-                {comic.comicNumber}: {comic.comicTitle}
-              </li>
-            </Link>
+            <li>
+              {comic.comicNumber}:{" "}
+              <Link to={`/comic/${comic.comicNumber}`}>{comic.comicTitle}</Link>
+            </li>
           ))}
         </ul>
       </div>
