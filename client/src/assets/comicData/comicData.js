@@ -8,4 +8,5 @@ export default [
   { comicNumber: 7, comicTitle: "Heated Seats" },
   { comicNumber: 8, comicTitle: "Time Cook" },
   { comicNumber: 9, comicTitle: "Important Tasks" },
+  { comicNumber: 10, comicTitle: "Relatable" },
 ];
