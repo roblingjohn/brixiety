@@ -10,4 +10,5 @@ export default [
   { comicNumber: 9, comicTitle: "Important Tasks" },
   { comicNumber: 10, comicTitle: "Relatable" },
   { comicNumber: 11, comicTitle: "Bother" },
+  { comicNumber: 12, comicTitle: "awkward lego man" },
 ];
