@@ -17,7 +17,8 @@ body {
   color: #ffffff;
 }
 
-.brandLink, a.brandLink {
+.brandLink,
+a.brandLink {
   color: #b4d2e3;
 }
 
@@ -95,4 +96,8 @@ li {
 .aprilFoolsImg {
   width: 350px;
   border: black solid 1px;
+}
+
+.aprilFools {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }

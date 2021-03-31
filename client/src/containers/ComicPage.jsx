@@ -43,7 +43,7 @@ class ComicPage extends Component {
 
   render() {
     return (
-      <div>
+      <div className={this.state.comic.id === 12 ? "aprilFools" : ""}>
         <ComicDisplay id={this.state.comic.id} />
       </div>
     );
