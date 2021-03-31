@@ -8,7 +8,11 @@ const OTNavbar = () => {
       <Navbar className="navbar">
         <Navbar.Brand>
           <Link to="/" className="brandLink navLink">
-            BRIXIETY
+            <img
+              src={require("../assets/images/bricklogo.png")}
+              alt="Brixiety"
+              className="brickLogo"
+            />
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
