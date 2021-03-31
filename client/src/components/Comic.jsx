@@ -6,6 +6,7 @@ class Comic extends Component {
     comic: {
       comicTitle: comicData[parseInt(this.props.id) - 1].comicTitle,
       id: this.props.id,
+      titleText: comicData[parseInt(this.props.id) - 1].titleText,
     },
   };
   comicId = parseInt(this.state.comic.id);
@@ -16,6 +17,7 @@ class Comic extends Component {
         comic: {
           id: props.id,
           comicTitle: comicData[parseInt(props.id) - 1].comicTitle,
+          titleText: comicData[parseInt(props.id) - 1].titleText,
         },
       };
     }
@@ -27,6 +29,7 @@ class Comic extends Component {
       comic: {
         id: this.props.id,
         comicTitle: comicData[parseInt(this.state.comic.id) - 1].comicTitle,
+        titleText: comicData[parseInt(this.props.id) - 1].titleText,
       },
     });
     console.log(comicData[parseInt(this.state.comic.id) - 1]);
@@ -41,6 +44,7 @@ class Comic extends Component {
           src={require(`../assets/comics/${this.state.comic.id}.png`)}
           className="comicImg"
           alt={`Brixiety #${this.state.comic.id}: "${this.state.comic.comicTitle}"`}
+          title={`${this.state.comic.titleText}`}
         />
       </div>
     );
