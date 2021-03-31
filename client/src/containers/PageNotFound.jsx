@@ -5,7 +5,11 @@ const PageNotFound = () => {
   return (
     <div className="container">
       <h1>Oops! That page doesn't exist.</h1>
-      <img className="pageNotFound-img" src={require("../assets/images/404.png")} />
+      <img
+        className="pageNotFound-img"
+        src={require("../assets/images/404.png")}
+        alt="404"
+      />
       <p className="pageText">
         You may have done something wrong, but it's more likely I screwed
         something up because I'm bad at everything, including web development.
