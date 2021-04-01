@@ -23,16 +23,16 @@ class ComicDisplay extends Component {
   componentDidMount() {
     this.setState({
       comic: {
-        id: this.props.id
-      }
-    })
+        id: this.props.id,
+      },
+    });
   }
 
   comicId = parseInt(this.state.comic.id);
 
   render() {
     return (
-      <div>
+      <div className={this.state.comic.id === 12 || this.state.comic.id === "12" ? "aprilFools" : ""}>
         <NavButtons id={this.state.comic.id} />
         <Comic id={this.state.comic.id} />
         <NavButtons id={this.state.comic.id} />

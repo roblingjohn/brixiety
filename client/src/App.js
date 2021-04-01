@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 import ComicPage from "./containers/ComicPage";
 import PageNotFound from "./containers/PageNotFound";
 import Copyright from "./components/Copyright";
+import AprilFools from "./containers/AprilFools";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/about" component={About} />
           <Route exact path="/socials" component={Socials} />
           <Route exact path="/comic/:id" component={ComicPage} />
+          <Route exact path="/aprilfools" component={AprilFools} />
           <Route exact path="/" component={Home} />
           <Route path="*" component={PageNotFound} />
         </Switch>

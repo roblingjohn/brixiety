@@ -55,4 +55,9 @@ export default [
     comicTitle: "Bother",
     titleText: `"What about Stop, Drop, and Roll?" "Eh, sounds like too much effort."`,
   },
+  {
+    comicNumber: 12,
+    comicTitle: "awkward lego man",
+    titleText: "April Fools!",
+  },
 ];
