@@ -2,12 +2,12 @@ export default [
   {
     comicNumber: 1,
     comicTitle: "For Fun",
-    titleText: `"Oh, and I make this webcomic called Brixie...hey, why are you leaving?"`,
+    titleText: `"Oh, and I make this webcomic called Brixie...hey, where are you going?"`,
   },
   {
     comicNumber: 2,
     comicTitle: "Mystery Text",
-    titleText: `You people and your "having multiple friends" and "actually reeaching out to them."`,
+    titleText: `You people and your "having multiple friends" and "actually reaching out to them."`,
   },
   {
     comicNumber: 3,
@@ -57,7 +57,7 @@ export default [
   },
   {
     comicNumber: 12,
-    comicTitle: "awkward lego man",
+    comicTitle: "awkward lego man (April Fools)",
     titleText: "April Fools!",
   },
 ];
