@@ -32,7 +32,6 @@ class Comic extends Component {
         titleText: comicData[parseInt(this.props.id) - 1].titleText,
       },
     });
-    console.log(comicData[parseInt(this.state.comic.id) - 1]);
   }
 
   render() {
