@@ -25,7 +25,7 @@ class Socials extends Component {
           </li>
           <li>
             Reddit:{" "}
-            <a href="https://old.reddit.com/user/Brixiety-Comic/overview">
+            <a href="https://reddit.com/user/Brixiety-Comic/">
               Brixiety-Comic
             </a>
           </li>
