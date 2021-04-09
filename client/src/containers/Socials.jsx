@@ -11,26 +11,34 @@ class Socials extends Component {
         </p>
         <ul className="pageText">
           <li>
-            Facebook: <a href="https://www.facebook.com/brixiety">brixiety</a>
+            Facebook:{" "}
+            <a href="https://www.facebook.com/brixiety" target="_blank" rel="noreferrer noopener">
+              brixiety
+            </a>
           </li>
           <li>
             Instagram:{" "}
-            <a href="https://www.instagram.com/brixiety.comic/">
+            <a href="https://www.instagram.com/brixiety.comic/" target="_blank" rel="noreferrer noopener">
               @brixiety.comic
             </a>
           </li>
           <li>
             Twitter:{" "}
-            <a href="https://twitter.com/BrixietyComic">BrixietyComic</a>
+            <a href="https://twitter.com/BrixietyComic" target="_blank" rel="noreferrer noopener">
+              BrixietyComic
+            </a>
           </li>
           <li>
             Reddit:{" "}
-            <a href="https://reddit.com/user/Brixiety-Comic/">
+            <a href="https://reddit.com/user/Brixiety-Comic/" target="_blank" rel="noreferrer noopener">
               Brixiety-Comic
             </a>
           </li>
           <li>
-            Tumblr: <a href="https://brixiety.tumblr.com/">brixiety</a>
+            Tumblr:{" "}
+            <a href="https://brixiety.tumblr.com/" target="_blank" rel="noreferrer noopener">
+              brixiety
+            </a>
           </li>
           <li>
             email:{" "}
