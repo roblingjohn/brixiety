@@ -60,4 +60,9 @@ export default [
     comicTitle: "awkward lego man (April Fools)",
     titleText: "April Fools!",
   },
+  {
+    comicNumber: 13,
+    comicTitle: "Free Trial",
+    titleText: "This was bad enough before COVID. I'm not looking forward to readjusting to socialization."
+  }
 ];
