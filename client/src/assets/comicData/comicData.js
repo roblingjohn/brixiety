@@ -63,6 +63,13 @@ export default [
   {
     comicNumber: 13,
     comicTitle: "Free Trial",
-    titleText: "This was bad enough before COVID. I'm not looking forward to readjusting to socialization."
-  }
+    titleText:
+      "This was bad enough before COVID. I'm not looking forward to readjusting to socialization.",
+  },
+  {
+    comicNumber: 14,
+    comicTitle: "Patient",
+    titleText:
+      "This does nothing to disprove my belief that I am actually just a cat.",
+  },
 ];
