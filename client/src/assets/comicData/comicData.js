@@ -72,4 +72,9 @@ export default [
     titleText:
       "This does nothing to disprove my belief that I am actually just a cat.",
   },
+  {
+    comicNumber: 15, 
+    comicTitle: "Adult", 
+    titleText: "Next you're gonna tell me it's been 10 years since I graduated college. ... OH GOD!"
+  }
 ];
