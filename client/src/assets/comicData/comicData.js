@@ -73,8 +73,15 @@ export default [
       "This does nothing to disprove my belief that I am actually just a cat.",
   },
   {
-    comicNumber: 15, 
-    comicTitle: "Adult", 
-    titleText: "Next you're gonna tell me it's been 10 years since I graduated college. ... OH GOD!"
-  }
+    comicNumber: 15,
+    comicTitle: "Adult",
+    titleText:
+      "Next you're gonna tell me it's been 10 years since I graduated college. ... OH GOD!",
+  },
+  {
+    comicNumber: 16,
+    comicTitle: "Motivation",
+    titleText:
+      "I definitely didn't build a 4000 piece LEGO roller coaster instead of doing what I was supposed to this week",
+  },
 ];
