@@ -84,4 +84,10 @@ export default [
     titleText:
       "I definitely didn't build a 4000 piece LEGO roller coaster instead of doing what I was supposed to this week",
   },
+  {
+    comicNumber: 17,
+    comicTitle: "Pacing",
+    titleText:
+      "You mean I get to practice imaginary conversations I'll never have *AND* I'm improving my health?",
+  },
 ];
