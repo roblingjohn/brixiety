@@ -90,4 +90,5 @@ export default [
     titleText:
       "You mean I get to practice imaginary conversations I'll never have *AND* I'm improving my health?",
   },
+  { comicNumber: 18, comicTitle: "Car Horn", titleText: "" },
 ];
