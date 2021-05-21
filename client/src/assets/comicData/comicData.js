@@ -90,5 +90,15 @@ export default [
     titleText:
       "You mean I get to practice imaginary conversations I'll never have *AND* I'm improving my health?",
   },
-  { comicNumber: 18, comicTitle: "Car Horn", titleText: "" },
+  {
+    comicNumber: 18,
+    comicTitle: "Car Horn",
+    titleText: "Hondas from the 2000s had such wussy horns.",
+  },
+  {
+    comicNumber: 19,
+    comicTitle: "Easy",
+    titleText:
+      "We both spent the first year of our relationship just waiting for the other shoe to drop. Turns out relationships can just be easy.",
+  },
 ];
