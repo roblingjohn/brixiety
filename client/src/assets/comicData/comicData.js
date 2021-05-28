@@ -101,4 +101,9 @@ export default [
     titleText:
       "We both spent the first year of our relationship just waiting for the other shoe to drop. Turns out relationships can just be easy.",
   },
+  {
+    comicNumber: 20,
+    comicTitle: "Old Posts",
+    titleText: "Our parents were just as dumb as us. Their stupidity just wasn't archived."
+  }
 ];
