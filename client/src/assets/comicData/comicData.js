@@ -103,7 +103,7 @@ export default [
   },
   {
     comicNumber: 20,
-    comicTitle: "Old Internet",
+    comicTitle: "Old Posts",
     titleText: "Our parents were just as dumb as us. Their stupidity just wasn't archived."
   }
 ];
