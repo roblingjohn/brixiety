@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import ComicsILike from "../components/ComicsILike";
 
 class About extends Component {
+  componentDidMount() {
+    document.title = "Brixiety | About";
+  }
   render() {
     return (
       <div className="container">

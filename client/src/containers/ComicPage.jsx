@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ComicDisplay from "../components/ComicDisplay";
+import comicData from "../assets/comicData/comicData";
 
 class ComicPage extends Component {
   state = {
@@ -27,6 +28,9 @@ class ComicPage extends Component {
         },
       });
     }
+    document.title = `Brixiety | #${this.state.comic.id}: ${
+      comicData[this.state.comic.id - 1].comicTitle
+    }`;
   };
 
   componentDidMount() {
@@ -37,6 +41,9 @@ class ComicPage extends Component {
         },
       });
     }
+    document.title = `Brixiety | #${this.state.comic.id}: ${
+      comicData[this.state.comic.id - 1].comicTitle
+    }`;
   }
 
   comicId = this.state.comic.id;

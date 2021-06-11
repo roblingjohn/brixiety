@@ -1,7 +1,11 @@
 import React from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const AprilFools = () => {
+  useEffect(() => {
+    document.title = "Brixiety | April Fools!";
+  }, []);
   return (
     <div className="container">
       <h1>APRIL FOOLS!</h1>
