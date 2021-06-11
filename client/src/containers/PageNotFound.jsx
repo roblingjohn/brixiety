@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const PageNotFound = () => {
+  useEffect(() => {
+    document.title = "Brixiety | 404";
+  }, []);
   return (
     <div className="container">
       <h1>Oops! That page doesn't exist.</h1>

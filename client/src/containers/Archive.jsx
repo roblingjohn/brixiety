@@ -3,6 +3,9 @@ import comicData from "../assets/comicData/comicData";
 import { Link } from "react-router-dom";
 
 class Archive extends Component {
+  componentDidMount() {
+    document.title = "Brixiety | Archive";
+  }
   comicArray = [...comicData].reverse();
 
   // componentDidMount() {
