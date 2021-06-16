@@ -8,6 +8,7 @@ class Comic extends Component {
       id: this.props.id,
       titleText: comicData[parseInt(this.props.id) - 1].titleText,
     },
+    expanded: false,
   };
   comicId = parseInt(this.state.comic.id);
 
@@ -34,6 +35,14 @@ class Comic extends Component {
     });
   }
 
+  handleExpand = () => {
+    if (this.state.expanded === false) {
+      this.setState({ expanded: true });
+    } else if (this.state.expanded) {
+      this.setState({ expanded: false });
+    }
+  };
+
   render() {
     return (
       <div>
@@ -41,9 +50,10 @@ class Comic extends Component {
         {/* <h2>Comic: {this.state.comic.id}</h2> */}
         <img
           src={require(`../assets/comics/${this.state.comic.id}.png`)}
-          className="comicImg"
+          className={this.state.expanded ? "comicImgExpanded" : "comicImg"}
           alt={`Brixiety #${this.state.comic.id}: "${this.state.comic.comicTitle}"`}
           title={`${this.state.comic.titleText}`}
+          onClick={this.handleExpand}
         />
       </div>
     );

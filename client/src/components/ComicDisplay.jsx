@@ -32,7 +32,13 @@ class ComicDisplay extends Component {
 
   render() {
     return (
-      <div className={this.state.comic.id === 12 || this.state.comic.id === "12" ? "aprilFools" : ""}>
+      <div
+        className={
+          this.state.comic.id === 12 || this.state.comic.id === "12"
+            ? "aprilFools"
+            : ""
+        }
+      >
         <NavButtons id={this.state.comic.id} />
         <Comic id={this.state.comic.id} />
         <NavButtons id={this.state.comic.id} />
