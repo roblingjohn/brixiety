@@ -44,6 +44,12 @@ a.navlink {
   border: black solid 1px;
 }
 
+.comicImgExpanded {
+  max-height: 95vh;
+  max-width: 95%;
+  border: black solid 1px;
+}
+
 .navButton {
   width: 70px;
   margin: 2px;
@@ -105,3 +111,5 @@ li {
 .brickLogo {
   width: 130px;
 }
+
+
