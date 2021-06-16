@@ -30,7 +30,7 @@ class About extends Component {
         <p className="pageText">
           Here are some other comics I like. I have no affiliation with any of
           them, and I would be surprised if any of them had ever heard of me.
-          Also, though I try to keep my comics PG, many of these are very much
+          Keep in mind even though I try to keep my comics PG, many of these are very much
           not so.
         </p>
         <ComicsILike />

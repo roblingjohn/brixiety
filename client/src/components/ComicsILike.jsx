@@ -25,7 +25,7 @@ class ComicsILike extends Component {
     return (
       <ul className="pageText">
         {this.comicList.map((comic) => (
-          <li>
+          <li className="otherComics">
             <a href={comic.url} target="_blank" rel="noopener noreferrer">
               {comic.comicName}
             </a>
