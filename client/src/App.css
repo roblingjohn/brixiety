@@ -83,7 +83,8 @@ a.navlink {
 
 .pageText {
   text-align: left;
-  padding: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .copyright {
@@ -92,6 +93,10 @@ a.navlink {
 
 li {
   list-style: none;
+}
+
+.otherComics {
+  padding-left: 20px;
 }
 
 .pageNotFound-img {
