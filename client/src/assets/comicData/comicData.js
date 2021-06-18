@@ -117,4 +117,9 @@ export default [
     comicTitle: "Creative Process",
     titleText: "Oh god, why did I start this stupid webcomic?",
   },
+  {
+    comicNumber: 23,
+    comicTitle: "Actually Cook",
+    titleText: `2 weeks later: "Aw man, the ingredients I bought all went bad."`,
+  },
 ];
