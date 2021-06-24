@@ -122,4 +122,10 @@ export default [
     comicTitle: "Actually Cook",
     titleText: `2 weeks later: "Aw man, the ingredients I bought all went bad."`,
   },
+  {
+    comicNumber: 24,
+    comicTitle: "Other People",
+    titleText:
+      "Yep, this was definitely a thing restricted to high school. Hasn't carried over into my adult life at all.",
+  },
 ];
