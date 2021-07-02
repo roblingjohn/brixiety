@@ -128,4 +128,10 @@ export default [
     titleText:
       "Yep, this was definitely a thing restricted to high school. Hasn't carried over into my adult life at all.",
   },
+  {
+    comicNumber: 25,
+    comicTitle: "Vacation",
+    titleText:
+      "My actual vacation is going to be to Colorado, but my attire for that doesn't lend itself as well to the visual shorthand of going to the beach.",
+  },
 ];
