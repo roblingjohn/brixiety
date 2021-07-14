@@ -12,7 +12,7 @@ class About extends Component {
         <h4>Because LEGO is (maybe slightly) Cheaper Than Therapy</h4>
         <p className="pageText">
           Hi, I'm John. I'm in my early thirties and I live in Atlanta with my
-          wife and three wonderful cats. I collected LEGO as a kid, but then in
+          lovely wife and three wonderful cats. I collected LEGO as a kid, but then in
           middle school I stopped because I thought I was too old for it. I
           always looked back on LEGO with yearning, lamenting the fact that I
           was "too old" for it. Then, in my mid-twenties, I decided to buy one
