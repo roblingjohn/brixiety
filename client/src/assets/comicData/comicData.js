@@ -134,4 +134,9 @@ export default [
     titleText:
       "My actual vacation is going to be to Colorado, but my attire for that doesn't lend itself as well to the visual shorthand of going to the beach.",
   },
+  {
+    comicNumber: 26,
+    comicTitle: "Scam Likely",
+    titleText: "I like to imagine Scam Likely as an actual person who cold calls people and tries to steal their money. Also he has a thin handlebar mustache."
+  }
 ];
