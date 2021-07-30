@@ -137,6 +137,12 @@ export default [
   {
     comicNumber: 26,
     comicTitle: "Scam Likely",
-    titleText: "I like to imagine Scam Likely as an actual person who cold calls people and tries to steal their money. Also he has a thin handlebar mustache."
-  }
+    titleText:
+      "I like to imagine Scam Likely as an actual person who cold calls people and tries to steal their money. Also he has a thin handlebar mustache.",
+  },
+  {
+    comicNumber: 27,
+    comicTitle: "Mechanic",
+    titleText: `"You're also dangerously low on blinker fluid." "Oh no, is that expensive?`,
+  },
 ];
