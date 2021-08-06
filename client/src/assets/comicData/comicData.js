@@ -145,4 +145,9 @@ export default [
     comicTitle: "Mechanic",
     titleText: `"You're also dangerously low on blinker fluid." "Oh no, is that expensive?`,
   },
+  {
+    comicNumber: 28,
+    comicTitle: "Try Harder",
+    titleText: "Also known as gifted kid syndrome.",
+  },
 ];
