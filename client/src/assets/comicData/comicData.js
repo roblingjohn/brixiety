@@ -147,7 +147,7 @@ export default [
   },
   {
     comicNumber: 28,
-    comicTitle: "Try Harder",
+    comicTitle: "Tried Harder",
     titleText: "Also known as gifted kid syndrome.",
   },
 ];
