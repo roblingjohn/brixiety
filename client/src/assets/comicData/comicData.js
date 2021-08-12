@@ -150,4 +150,10 @@ export default [
     comicTitle: "Try Harder",
     titleText: "Also known as gifted kid syndrome.",
   },
+  {
+    comicNumber: 29,
+    comicTitle: "Job Hunt",
+    titleText:
+      "Before you mention the current understaffing crisis, I'm in my 30s and have a college degree, so I ain't working retail or food service.",
+  },
 ];
