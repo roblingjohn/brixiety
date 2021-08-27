@@ -156,4 +156,7 @@ export default [
     titleText:
       "Before you mention the current understaffing crisis, I'm in my 30s and have a college degree, so I ain't working retail or food service.",
   },
+  {comicNumber: 30,
+  comicTitle: "Doing Okay",
+titleText: "I generally send my wife these comics for notes becuase she's good at comedy, but there have been times that they have made her generally concerned for my wellbeing."}
 ];
