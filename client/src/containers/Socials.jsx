@@ -46,11 +46,11 @@ class Socials extends Component {
           <li>
             Reddit:{" "}
             <a
-              href="https://reddit.com/user/Brixiety-Comic/"
+              href="https://reddit.com/r/brixiety/"
               target="_blank"
               rel="noreferrer noopener"
             >
-              Brixiety-Comic
+              /r/brixiety
             </a>
           </li>
           <li>
