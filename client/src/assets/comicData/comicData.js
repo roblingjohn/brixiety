@@ -168,4 +168,10 @@ export default [
     titleText:
       "I still haven't decided whether the centaur is offended or complimented.",
   },
+  {
+    comicNumber: 32,
+    comicTitle: "Right Place",
+    titleText:
+      "I accidentally walked into the wrong house one time several years ago, and I don't think I've ever fully recovered from that.",
+  },
 ];
