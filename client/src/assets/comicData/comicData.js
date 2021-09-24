@@ -174,4 +174,10 @@ export default [
     titleText:
       "I accidentally walked into the wrong house one time several years ago, and I don't think I've ever fully recovered from that.",
   },
+  {
+    comicNumber: 33,
+    comicTitle: "Two Weeks",
+    titleText:
+      "To be fair, we weren't expecting the closing date for our house to be the same weeks as our wedding.",
+  },
 ];
