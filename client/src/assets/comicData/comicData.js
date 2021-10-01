@@ -180,4 +180,10 @@ export default [
     titleText:
       "To be fair, we weren't expecting the closing date for our house to be the same weeks as our wedding.",
   },
+  {
+    comicNumber: 34,
+    comicTitle: "Meditate",
+    titleText:
+      "Ain't it grand when you have to turn your mind of for 10 minutes just to get to a base level where you can function as a human being?",
+  },
 ];
