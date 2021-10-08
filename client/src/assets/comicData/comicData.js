@@ -186,4 +186,10 @@ export default [
     titleText:
       "Ain't it grand when you have to turn your mind of for 10 minutes just to get to a base level where you can function as a human being?",
   },
+  {
+    comicNumber: 35,
+    comicTitle: "October",
+    titleText:
+      "Can't wait for the one week of nice weather before it's suddenly freezing.",
+  },
 ];
