@@ -192,4 +192,10 @@ export default [
     titleText:
       "Can't wait for the one week of nice weather before it's suddenly freezing.",
   },
+  {
+    comicNumber: 36,
+    comicTitle: "Marriage",
+    titleText:
+      "Or maybe this is just a thing that happens when you get married in the middle of a global pandemic?",
+  },
 ];
