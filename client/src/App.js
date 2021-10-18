@@ -10,12 +10,14 @@ import ComicPage from "./containers/ComicPage";
 import PageNotFound from "./containers/PageNotFound";
 import Copyright from "./components/Copyright";
 import AprilFools from "./containers/AprilFools";
+import Donate from "./components/Donate";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar />
+        <Donate />
         <Switch>
           <Route exact path="/archive" component={Archive} />
           <Route exact path="/about" component={About} />
