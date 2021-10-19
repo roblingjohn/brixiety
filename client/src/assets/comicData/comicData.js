@@ -198,4 +198,9 @@ export default [
     titleText:
       "Or maybe this is just a thing that happens when you get married in the middle of a global pandemic?",
   },
+  {
+    comicNumber: 37,
+    comicTitle: "HEY!",
+    titleText: "Sorry, I didn't have a Rescue Helicopter to build.",
+  },
 ];
