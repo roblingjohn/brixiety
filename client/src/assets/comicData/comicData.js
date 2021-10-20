@@ -200,7 +200,12 @@ export default [
   },
   {
     comicNumber: 37,
-    comicTitle: "HEY!",
-    titleText: "Sorry, I didn't have a Rescue Helicopter to build.",
+    comicTitle: "Intake",
+    titleText: `"And then finally we'll need you to listen to your mom on the phone with your aunt while she incorrectly explains what's going on in your life"`,
   },
+  // {
+  //   comicNumber: 39,
+  //   comicTitle: "HEY!",
+  //   titleText: "Sorry, I didn't have a Rescue Helicopter to build.",
+  // },
 ];
