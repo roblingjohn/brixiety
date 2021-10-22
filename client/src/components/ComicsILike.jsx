@@ -2,11 +2,14 @@ import React, { Component } from "react";
 
 class ComicsILike extends Component {
   comicList = [
+    { comicName: "Barrel Scrapings", url: "https://barrelscrapings.com/" },
+
     { comicName: "Catana Comics", url: "https://catanacomics.com/" },
     {
       comicName: "Extra Fabulous Comics",
       url: "https://extrafabulouscomics.com/",
     },
+    { comicName: "Mr. Lovenstein", url: "https://www.mrlovenstein.com/" },
     { comicName: "Perry Bible Fellowship", url: "https://pbfcomics.com/" },
     { comicName: "Sarah's Scribbles", url: "https://sarahcandersen.com/" },
     {

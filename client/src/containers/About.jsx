@@ -28,8 +28,8 @@ class About extends Component {
         </p>
         <h2>Other Comics I Like</h2>
         <p className="pageText">
-          Here are some other comics I like. I have no affiliation with any of
-          them, and I would be surprised if any of them had ever heard of me.
+          Here are some other comics I like. I have no affiliation with most of
+          them, and I would be surprised if some of them had ever heard of me.
           Keep in mind even though I try to keep my comics PG, many of these are very much
           not so.
         </p>
