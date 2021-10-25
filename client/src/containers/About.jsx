@@ -10,7 +10,9 @@ class About extends Component {
     return (
       <div className="container">
         <h1>Brixiety</h1>
-        <h4><i>Because LEGO is (maybe slightly) Cheaper Than Therapy</i></h4>
+        <h4>
+          <i>Because LEGO is (maybe slightly) Cheaper Than Therapy</i>
+        </h4>
         <h2>FAQ</h2>
         <h3 className="faqQ">What am I looking at here?</h3>
         <p>
@@ -35,10 +37,10 @@ class About extends Component {
         <h3 className="faqQ">Are those all real LEGO?</h3>
         <p>
           Yep! I'm a purist when it comes to LEGO, so everything I photograph is
-          genuine LEGO parts from my collection that I have bought, either through
-          standard retail or the secondary market. If you haven't collected LEGO
-          in the past few years, you may be surpised by how intricate and
-          detailed their parts and sets have become.
+          genuine LEGO parts from my collection that I have bought, either
+          through standard retail or the secondary market. If you haven't
+          collected LEGO in the past few years, you may be surpised by how
+          intricate and detailed their parts and sets have become.
         </p>
         <h3 className="faqQ">Is that Emmet from The LEGO Movie?</h3>
         <p>
@@ -60,11 +62,16 @@ class About extends Component {
         </p>
         <h3 className="faqQ">Who built this terrible website?</h3>
         <p>
-          I did! I built it from scratch using React.js. Incidently, if you or
-          anyone you know of is looking to hire an entry-level web developer in
-          the Atlanta area, you can email me at{" "}
-          <a href="mailto:brixiety.comic@gmail.com">brixiety.comic@gmail.com</a>{" "}
-          and I can send you my resume and whatnot.
+          I did! I built it from scratch using React.js.{" "}
+          <span className="hidden">
+            And if you're reading this, it means you're poking around in my
+            HTML. If you or anyone you know of is looking to hire an entry-level
+            web developer in the Atlanta area, you can email me at{" "}
+            <a href="mailto:brixiety.comic@gmail.com">
+              brixiety.comic@gmail.com
+            </a>{" "}
+            and I can send you my resume and whatnot.
+          </span>
         </p>
         <h3 className="faqQ">
           Are you <Link to="/comic/30">doing okay</Link>? Some of these comics
