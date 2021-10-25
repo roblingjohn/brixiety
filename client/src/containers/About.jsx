@@ -33,7 +33,7 @@ class About extends Component {
           could make comics by taking pictures of them.
         </p>
         <h3 className="faqQ">How do you pronounce "Brixiety"?</h3>
-        <p>Brik-SY-eh-tee. It's a portmanteau of "brick" and "anxiety".</p>
+        <p>brik-SY-eh-tee. It's a portmanteau of "brick" and "anxiety".</p>
         <h3 className="faqQ">Are those all real LEGO?</h3>
         <p>
           Yep! I'm a purist when it comes to LEGO, so everything I photograph is
@@ -55,14 +55,15 @@ class About extends Component {
         <p>Aren't we all, at a certain level?</p>
         <h3 className="faqQ">Do you make money off this?</h3>
         <p>
-          This is just a side job right now, but if you'd like to donate, you
+          This is just a side thing right now, but if you'd like to donate, you
           can do so <a href="https://www.buymeacoffee.com/brixiety">here</a>. I
           don't have a Patreon or any perks set up for donors yet, but if the
           comic gets popular enough I may do so.
         </p>
         <h3 className="faqQ">Who built this terrible website?</h3>
         <p>
-          I did! I built it from scratch using React.js.{" "}
+          I did! I built it from scratch using React.js. Sorry the images take
+          so long to load.{" "}
           <span className="hidden">
             And if you're reading this, it means you're poking around in my
             HTML. If you or anyone you know of is looking to hire an entry-level
@@ -73,13 +74,18 @@ class About extends Component {
             and I can send you my resume and whatnot.
           </span>
         </p>
+        <h3 className="faqQ">Are your comics on other platforms?</h3>
+        <p>
+          Yes, I post it on most major social media platforms, and you can find
+          them all on the <Link to="/socials">Socials</Link> page.
+        </p>
         <h3 className="faqQ">
           Are you <Link to="/comic/30">doing okay</Link>? Some of these comics
           have me worried.
         </h3>
         <p>
           Yeah, I'm doing fine all things considered. While many of these comics
-          are based on real life experiences, they are also exaggerated for
+          are based on real life experiences, most are also exaggerated for
           comedic effect.
         </p>
 
