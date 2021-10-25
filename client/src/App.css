@@ -81,7 +81,7 @@ a.navlink {
   border: black solid 1px;
 }
 
-.pageText {
+p, li {
   text-align: left;
   padding-right: 5px;
   padding-left: 5px;
@@ -129,5 +129,9 @@ li {
 
 a.leaveMeAlone {
   color: #0055bf;
+}
+
+.faqQ {
+  text-align: left;
 }
 
