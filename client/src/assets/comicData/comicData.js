@@ -203,6 +203,12 @@ export default [
     comicTitle: "Intake",
     titleText: `"And then finally we'll need you to listen to your mom on the phone with your aunt while she incorrectly explains what's going on in your life"`,
   },
+  {
+    comicNumber: 38,
+    comicTitle: "Haunted House",
+    titleText:
+      "There is truly nothing scarier than the constant linear flow of time.",
+  },
   // {
   //   comicNumber: 39,
   //   comicTitle: "HEY!",
