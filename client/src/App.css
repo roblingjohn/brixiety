@@ -23,7 +23,7 @@ a.brandLink {
 }
 
 button {
-  background-color: #0A3463;
+  background-color: #0a3463;
   color: #ffffff;
   border: none;
   height: 2em;
@@ -81,7 +81,8 @@ a.navlink {
   border: black solid 1px;
 }
 
-.pageText {
+p,
+li {
   text-align: left;
   padding-right: 5px;
   padding-left: 5px;
@@ -124,10 +125,19 @@ li {
   margin-bottom: 1em;
   width: 30em;
   max-width: 90%;
-  border: 1px black solid
+  border: 1px black solid;
 }
 
 a.leaveMeAlone {
   color: #0055bf;
 }
 
+.faqQ {
+  text-align: left;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.hidden {
+  display: none;
+}
