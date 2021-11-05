@@ -209,9 +209,9 @@ export default [
     titleText:
       "There is truly nothing scarier than the constant linear flow of time.",
   },
-  // {
-  //   comicNumber: 39,
-  //   comicTitle: "HEY!",
-  //   titleText: "Sorry, I didn't have a Rescue Helicopter to build.",
-  // },
+  {
+    comicNumber: 39,
+    comicTitle: "HEY!",
+    titleText: "Sorry, I didn't have a Rescue Helicopter to build.",
+  },
 ];
