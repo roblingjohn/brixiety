@@ -214,4 +214,10 @@ export default [
     comicTitle: "HEY!",
     titleText: "Sorry, I didn't have a Rescue Helicopter to build.",
   },
+  {
+    comicNumber: 40,
+    comicTitle: "Change",
+    titleText:
+      "God grant be the anxiety to complain about the things I cannot change, the laziness to complain about the the things I can, and the depression to wonder why nothing gets better.",
+  },
 ];
