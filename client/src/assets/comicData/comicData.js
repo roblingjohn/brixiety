@@ -220,4 +220,9 @@ export default [
     titleText:
       "God grant be the anxiety to complain about the things I cannot change, the laziness to complain about the the things I can, and the depression to wonder why nothing gets better.",
   },
+  {
+    comicNumber: 41,
+    comicTitle: "Chocolate",
+    titleText: "Plot twist: the dog actually poops out soft serve.",
+  },
 ];
