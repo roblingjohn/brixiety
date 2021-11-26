@@ -225,4 +225,10 @@ export default [
     comicTitle: "Chocolate",
     titleText: "Plot twist: the dog actually poops out soft serve.",
   },
+  {
+    comicNumber: 42,
+    comicTitle: "Jolly",
+    titleText:
+      "Am I a joyless Scrooge for ruining the enjoyment of people who want to celebrate early? Yes. Am I also a major proponent of strict delineation between holiday seasons? Also yes.",
+  },
 ];
