@@ -231,4 +231,10 @@ export default [
     titleText:
       "Am I a joyless Scrooge for ruining the enjoyment of people who want to celebrate early? Yes. Am I also a major proponent of strict delineation between holiday seasons? Also yes.",
   },
+  {
+    comicNumber: 43,
+    comicTitle: "Imposter Syndrome",
+    titleText:
+      "And that dumb webcomic you make? No one really likes it. It's just bots upvoting it.",
+  },
 ];
