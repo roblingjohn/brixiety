@@ -237,4 +237,10 @@ export default [
     titleText:
       "And that dumb webcomic you make? No one really likes it. It's just bots upvoting it.",
   },
+  {
+    comicNumber: 44,
+    comicTitle: "Content Creation",
+    titleText:
+      "It seems like it's the ones I'm not super enthusiastic about that always end up being popular.",
+  },
 ];
