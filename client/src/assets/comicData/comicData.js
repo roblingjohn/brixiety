@@ -243,4 +243,10 @@ export default [
     titleText:
       "It seems like it's the ones I'm not super enthusiastic about that always end up being popular.",
   },
+  {
+    comicNumber: 45,
+    comicTitle: "Supply Chain",
+    titleText:
+      "Sorry reader, I couldn't think of a title text. Supply chain issues, y'know?",
+  },
 ];
