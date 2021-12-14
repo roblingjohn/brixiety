@@ -72,6 +72,16 @@ class Socials extends Component {
             </a>
           </li>
           <li>
+            YouTube:{" "}
+            <a
+              href="https://www.youtube.com/channel/UCSdVQTD0VmEh0bsws6H5Rag/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Brixiety Studios
+            </a> (coming soon!)
+          </li>
+          <li>
             email:{" "}
             <a href="mailto:brixiety.comic@gmail.com">
               brixiety.comic@gmail.com
