@@ -12,6 +12,7 @@ import Copyright from "./components/Copyright";
 import AprilFools from "./containers/AprilFools";
 import Donate from "./components/Donate";
 import GhostTemplate from "./containers/GhostTemplate";
+import Blog from "./containers/Blog"
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route exact path="/comic/:id" component={ComicPage} />
           <Route exact path="/ghosttemplate" component={GhostTemplate} />
           <Route exact path="/aprilfools" component={AprilFools} />
+          <Route exact path="/blog" component={Blog} />
           <Route exact path="/" component={Home} />
           <Route path="*" component={PageNotFound} />
         </Switch>
