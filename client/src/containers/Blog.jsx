@@ -1,14 +1,20 @@
 import React, { Component, setState } from "react";
 import axios from "axios";
+import parse from "html-react-parser";
 
 class Blog extends Component {
   state = [{}];
   convertUnicode(input) {
-    return input.replace(/\\u[0-9a-fA-F]{4}/g,function(a,b) {
-      var charcode = parseInt(b,16);
+    return input.replace(/\\u[0-9a-fA-F]{4}/g, function (a, b) {
+      var charcode = parseInt(b, 16);
       return String.fromCharCode(charcode);
     });
   }
+
+  looseJsonParse(obj) {
+    return Function('"use strict";return (' + obj + ")")();
+  }
+
   componentDidMount = () => {
     axios
       .get(
@@ -17,10 +23,8 @@ class Blog extends Component {
       .then((res) => {
         console.log(res.data.posts);
         this.setState(res.data.posts);
-        this.convertUnicode(this.state[0].content)
-        console.log(this.state[0].content);
-
-
+        // this.convertUnicode(this.state[0].content)
+        // console.log(this.looseJsonParse(this.state[0].content));
       });
   };
   render() {
@@ -28,7 +32,7 @@ class Blog extends Component {
       <div className="container">
         <h1>This is the blog page</h1>
         <h2>{this.state[0].title}</h2>
-        <p>{this.state[0].content}</p>
+        <div dangerouslySetInnerHTML={{ __html: this.state[0].content }}/>
       </div>
     );
   }
