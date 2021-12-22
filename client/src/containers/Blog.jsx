@@ -1,10 +1,10 @@
 import React, { Component, setState } from "react";
 import axios from "axios";
-import parse from "html-react-parser";
-import BlogPost from "../components/BlogPost"
+import BlogPost from "../components/BlogPost";
 
 class Blog extends Component {
-  state = [{title: "Loading..."}];
+  state = { posts: [{ title: "loading" }], isLoading: true };
+  blogPosts = this.state.posts;
 
   componentDidMount = () => {
     axios
@@ -12,21 +12,36 @@ class Blog extends Component {
         "https://public-api.wordpress.com/rest/v1.1/sites/brixiety.wordpress.com/posts/"
       )
       .then((res) => {
-        console.log(res.data.posts);
-        this.setState(res.data.posts);
-        // this.convertUnicode(this.state[0].content)
-        // console.log(this.looseJsonParse(this.state[0].content));
+        this.setState(res.data);
+        console.log("res.data: " + res.data);
+        console.log("this.state: " + this.state);
+        this.blogPosts = res.data.posts;
+        console.log("blogPosts: " + this.blogPosts);
+        this.setState({ isLoading: false });
+        console.log("state: " + this.state);
       });
   };
   render() {
-    return (
-      <div className="container">
-        {/* <h1>This is the blog page</h1>
-        <h2>{this.state[0].title}</h2>
+    if (this.state.isLoading === true) {
+      return <h2>Loading...</h2>;
+    } else {
+      return (
+        <div className="blogPage">
+          <h1>Blogxiety</h1>
+          {this.state.posts.map((post) => (
+            <BlogPost
+              key={post.ID}
+              id={post.ID}
+              title={post.title}
+              content={post.content}
+            />
+          ))}
+          {/* <h2>{this.state[0].title}</h2>
         <div dangerouslySetInnerHTML={{ __html: this.state[0].content }}/> */}
-        <BlogPost data={this.state[0]}/>
-      </div>
-    );
+          {/* <BlogPost data={this.state[0]} /> */}
+        </div>
+      );
+    }
   }
 }
 
