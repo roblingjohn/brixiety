@@ -249,4 +249,10 @@ export default [
     titleText:
       "Sorry reader, I couldn't think of a title text. Supply chain issues, y'know?",
   },
+  {
+    comicNumber: 46,
+    comicTitle: "Christmas List",
+    titleText:
+      "This is even worse than last year, when my present was my heart, and less than 24 hours later you had already regifted it.",
+  },
 ];
