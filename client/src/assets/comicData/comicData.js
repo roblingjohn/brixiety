@@ -255,4 +255,8 @@ export default [
     titleText:
       "This is even worse than last year, when my present was my heart, and less than 24 hours later you had already regifted it.",
   },
+  {comicNumber: 47,
+    comicTitle: "Doing Things",
+    titleText: "But then how will I work myself up to be ready for it then be completely thrown off when it doesn't go as expected?"
+  }
 ];
