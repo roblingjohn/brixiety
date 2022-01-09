@@ -266,4 +266,9 @@ export default [
     comicTitle: "Cynical",
     titleText: "Later I'll look up tips on how to stop procrastinating.",
   },
+  {
+    comicNumber: 49,
+    comicTitle: "Podcast",
+    titleText: `"That's ridiculous. Do you really thing I would tell you if I was?"`,
+  },
 ];
