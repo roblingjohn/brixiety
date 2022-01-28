@@ -271,4 +271,9 @@ export default [
     comicTitle: "Podcast",
     titleText: `"That's ridiculous. Do you really thing I would tell you if I was?"`,
   },
+  {
+    comicNumber: 50,
+    comicTitle: "Charge and Drain",
+    titleText: "Being introverted doesn't mean you hate being around people, it just means you only want to be around people for a certain amount of time."
+  }
 ];
