@@ -274,9 +274,19 @@ export default [
   {
     comicNumber: 50,
     comicTitle: "Charge and Drain",
-    titleText: "Being introverted doesn't mean you hate being around people, it just means you only want to be around people for a certain amount of time."
+    titleText:
+      "Being introverted doesn't mean you hate being around people, it just means you only want to be around people for a certain amount of time.",
   },
-  {comicNumber: 51,
-  comicTitle: "Boba",
-titleText: "Yes, it's usually referred to as either boba or bubble tea, not boba tea. I'm a pedant myself. But Wikipedia has it as an acceptable term, so I'm going with it."}
+  {
+    comicNumber: 51,
+    comicTitle: "Boba",
+    titleText:
+      "Yes, it's usually referred to as either boba or bubble tea, not boba tea. I'm a pedant myself. But Wikipedia has it as an acceptable term, so I'm going with it.",
+  },
+  {
+    comicNumber: 52,
+    comicTitle: "Sportsball",
+    titleText:
+      "Friendly reminder that hating things is not a personality trait.",
+  },
 ];
