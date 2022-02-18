@@ -289,4 +289,10 @@ export default [
     titleText:
       "Friendly reminder that hating things is not a personality trait.",
   },
+  {
+    comicNumber: 53,
+    comicTitle: "Executive Dysfunction",
+    titleText:
+      "My psychologist says I can get an Adderal prescription once I see a physician, but for some reason I haven't gotten around to doing that.",
+  },
 ];
