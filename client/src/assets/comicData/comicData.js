@@ -295,4 +295,9 @@ export default [
     titleText:
       "My psychologist says I can get an Adderal prescription once I see a physician, but for some reason I haven't gotten around to doing that.",
   },
+  {
+    comicNumber: 54,
+    comicTitle: "Gassy",
+    titleText: "I mean, sure there are other advantages to eating healthy, but I really thought that it would at least make me fart less."
+  }
 ];
