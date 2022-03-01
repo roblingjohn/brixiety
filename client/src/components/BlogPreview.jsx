@@ -1,3 +1,4 @@
+import moment from "moment";
 import React, { Component, setState } from "react";
 
 class BlogPreview extends Component {
@@ -10,6 +11,7 @@ class BlogPreview extends Component {
       return (
         <div className="blogPost">
           <h2>{this.state.title}</h2>
+          <h6>{moment(this.state.date).format("MMMM DD, YYYY")}</h6>
           <div dangerouslySetInnerHTML={{ __html: this.state.content }} />
         </div>
       );

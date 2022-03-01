@@ -30,6 +30,7 @@ class Blog extends Component {
               id={post.ID}
               title={post.title}
               content={post.content}
+              date={post.date}
             />
           ))}
           {/* <h2>{this.state[0].title}</h2>
