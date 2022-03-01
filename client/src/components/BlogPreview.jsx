@@ -1,6 +1,6 @@
 import React, { Component, setState } from "react";
 
-class BlogPost extends Component {
+class BlogPreview extends Component {
   state = {};
   componentDidMount = () => {
     this.setState(this.props);
@@ -19,4 +19,4 @@ class BlogPost extends Component {
   }
 }
 
-export default BlogPost;
+export default BlogPreview;

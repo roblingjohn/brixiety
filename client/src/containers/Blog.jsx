@@ -1,6 +1,6 @@
 import React, { Component, setState } from "react";
 import axios from "axios";
-import BlogPost from "../components/BlogPost";
+import BlogPreview from "../components/BlogPreview";
 
 class Blog extends Component {
   state = { posts: [{ title: "loading" }], isLoading: true };
@@ -29,7 +29,7 @@ class Blog extends Component {
         <div className="blogPage">
           <h1>Blogxiety</h1>
           {this.state.posts.map((post) => (
-            <BlogPost
+            <BlogPreview
               key={post.ID}
               id={post.ID}
               title={post.title}
@@ -38,7 +38,7 @@ class Blog extends Component {
           ))}
           {/* <h2>{this.state[0].title}</h2>
         <div dangerouslySetInnerHTML={{ __html: this.state[0].content }}/> */}
-          {/* <BlogPost data={this.state[0]} /> */}
+          {/* <BlogPreview data={this.state[0]} /> */}
         </div>
       );
     }
