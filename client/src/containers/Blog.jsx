@@ -13,12 +13,8 @@ class Blog extends Component {
       )
       .then((res) => {
         this.setState(res.data);
-        console.log("res.data: " + res.data);
-        console.log("this.state: " + this.state);
         this.blogPosts = res.data.posts;
-        console.log("blogPosts: " + this.blogPosts);
         this.setState({ isLoading: false });
-        console.log("state: " + this.state);
       });
   };
   render() {
