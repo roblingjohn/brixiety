@@ -1,5 +1,6 @@
 import moment from "moment";
-import React, { Component, setState } from "react";
+import React, { Component} from "react";
+import { Link } from "react-router-dom";
 
 class BlogPreview extends Component {
   state = {};
@@ -10,7 +11,7 @@ class BlogPreview extends Component {
     if (this.state.title) {
       return (
         <div className="blogPost">
-          <h2>{this.state.title}</h2>
+          <h2><Link to={`/blog/post/${this.state.id}`}>{this.state.title}</Link></h2>
           <h6>{moment(this.state.date).format("MMMM DD, YYYY")}</h6>
           <div dangerouslySetInnerHTML={{ __html: this.state.content }} />
         </div>
