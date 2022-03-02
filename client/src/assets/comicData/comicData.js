@@ -147,7 +147,7 @@ export default [
   },
   {
     comicNumber: 28,
-    comicTitle: "Try Harder",
+    comicTitle: "Tried Harder",
     titleText: "Also known as gifted kid syndrome.",
   },
   {
@@ -249,4 +249,55 @@ export default [
     titleText:
       "Sorry reader, I couldn't think of a title text. Supply chain issues, y'know?",
   },
+  {
+    comicNumber: 46,
+    comicTitle: "Christmas List",
+    titleText:
+      "This is even worse than last year, when my present was my heart, and less than 24 hours later you had already regifted it.",
+  },
+  {
+    comicNumber: 47,
+    comicTitle: "Doing Things",
+    titleText:
+      "But then how will I work myself up to be ready for it then be completely thrown off when it doesn't go as expected?",
+  },
+  {
+    comicNumber: 48,
+    comicTitle: "Cynical",
+    titleText: "Later I'll look up tips on how to stop procrastinating.",
+  },
+  {
+    comicNumber: 49,
+    comicTitle: "Podcast",
+    titleText: `"That's ridiculous. Do you really thing I would tell you if I was?"`,
+  },
+  {
+    comicNumber: 50,
+    comicTitle: "Charge and Drain",
+    titleText:
+      "Being introverted doesn't mean you hate being around people, it just means you only want to be around people for a certain amount of time.",
+  },
+  {
+    comicNumber: 51,
+    comicTitle: "Boba",
+    titleText:
+      "Yes, it's usually referred to as either boba or bubble tea, not boba tea. I'm a pedant myself. But Wikipedia has it as an acceptable term, so I'm going with it.",
+  },
+  {
+    comicNumber: 52,
+    comicTitle: "Sportsball",
+    titleText:
+      "Friendly reminder that hating things is not a personality trait.",
+  },
+  {
+    comicNumber: 53,
+    comicTitle: "Executive Dysfunction",
+    titleText:
+      "My psychologist says I can get an Adderal prescription once I see a physician, but for some reason I haven't gotten around to doing that.",
+  },
+  {
+    comicNumber: 54,
+    comicTitle: "Gassy",
+    titleText: "I mean, sure there are other advantages to eating healthy, but I really thought that it would at least make me fart less."
+  }
 ];
