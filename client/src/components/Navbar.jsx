@@ -24,6 +24,9 @@ const OTNavbar = () => {
             <Link to="/archive" className="navlink">
               Archive
             </Link>
+            <Link to="/blog" className="navlink">
+              Blog
+            </Link>
             <Link to="/about" className="navlink">
               About
             </Link>
