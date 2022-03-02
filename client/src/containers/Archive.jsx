@@ -23,8 +23,13 @@ class Archive extends Component {
           <tbody>
             {this.comicArray.map((comic) => (
               <tr>
-                <td style={{textAlign: "right"}}>{comic.date && moment(comic.date).format("MMMM D, YYYY")}</td>
-                <td style={{textAlign: "right"}}>#{comic.comicNumber}: </td>
+                <td style={{ textAlign: "right" }}>
+                  {comic.date &&
+                    moment(comic.date).format(
+                      (window.screen.width > 450 ? "MMMM" : "MMM") + " D, YYYY"
+                    )}
+                </td>
+                <td style={{ textAlign: "right" }}>#{comic.comicNumber}: </td>
                 <td>
                   <Link to={`/comic/${comic.comicNumber}`}>
                     {comic.comicTitle}
