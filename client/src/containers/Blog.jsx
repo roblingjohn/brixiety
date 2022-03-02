@@ -8,6 +8,7 @@ class Blog extends Component {
   blogPosts = this.state.posts;
 
   componentDidMount = () => {
+    document.title = "Brixiety | Blog";
     axios
       .get(
         "https://public-api.wordpress.com/rest/v1.1/sites/brixiety.wordpress.com/posts/"

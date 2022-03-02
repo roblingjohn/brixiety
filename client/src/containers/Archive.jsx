@@ -5,7 +5,7 @@ import moment from "moment";
 
 class Archive extends Component {
   componentDidMount() {
-    document.title = "Brixiety | Archive";
+    document.title = "Brixiety | Comic Archive";
   }
   comicArray = [...comicData].reverse();
 
