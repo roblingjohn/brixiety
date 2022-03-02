@@ -1,6 +1,7 @@
 import React, { Component} from "react";
 import axios from "axios";
 import BlogPreview from "../components/BlogPreview";
+import { Link } from "react-router-dom";
 
 class Blog extends Component {
   state = { posts: [{ title: "loading" }], isLoading: true };
@@ -24,6 +25,7 @@ class Blog extends Component {
       return (
         <div className="blogPage">
           <h1>Blogxiety</h1>
+          <h4><Link to={`/blog/archive`}>Archive</Link></h4>
           {this.state.posts.map((post) => (
             <BlogPreview
               key={post.ID}
@@ -33,9 +35,6 @@ class Blog extends Component {
               date={post.date}
             />
           ))}
-          {/* <h2>{this.state[0].title}</h2>
-        <div dangerouslySetInnerHTML={{ __html: this.state[0].content }}/> */}
-          {/* <BlogPreview data={this.state[0]} /> */}
         </div>
       );
     }

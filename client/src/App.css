@@ -151,3 +151,8 @@ a.leaveMeAlone {
   padding: 5px;
   border: black solid 1px;
 }
+
+td {
+  text-align: left;
+  padding-left: 10px
+}

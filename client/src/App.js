@@ -14,6 +14,7 @@ import Donate from "./components/Donate";
 import GhostTemplate from "./containers/GhostTemplate";
 import Blog from "./containers/Blog";
 import BlogPost from "./containers/BlogPost";
+import BlogArchive from "./containers/BlogArchive";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route exact path="/ghosttemplate" component={GhostTemplate} />
           <Route exact path="/aprilfools" component={AprilFools} />
           <Route exact path="/blog" component={Blog} />
+          <Route exact path="/blog/archive" component={BlogArchive} />
           <Route path="/blog/post/:id" component={BlogPost} />
           <Route exact path="/" component={Home} />
           <Route path="*" component={PageNotFound} />
