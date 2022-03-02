@@ -298,6 +298,13 @@ export default [
   {
     comicNumber: 54,
     comicTitle: "Gassy",
-    titleText: "I mean, sure there are other advantages to eating healthy, but I really thought that it would at least make me fart less."
-  }
+    titleText:
+      "I mean, sure there are other advantages to eating healthy, but I really thought that it would at least make me fart less.",
+  },
+  {
+    comicNumber: 55,
+    comicTitle: "Plants",
+    titleText:
+      "The sequel to this comic will feature her being suprised when our cat tries to eat them all.",
+  },
 ];
