@@ -18,7 +18,7 @@ class BlogPost extends Component {
     return (
       <div className="blogPost">
           <h2>{this.state.title}</h2>
-          <h6>{moment(this.state.date).format("MMMM DD, YYYY")}</h6>
+          <h6>{moment(this.state.date).format("dddd, MMMM Do, YYYY")}</h6>
           <div dangerouslySetInnerHTML={{ __html: this.state.content }} />
       </div>
     );
