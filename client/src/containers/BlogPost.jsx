@@ -5,6 +5,7 @@ import React, { Component } from "react";
 class BlogPost extends Component {
   state = {};
   componentDidMount() {
+    document.title = "Brixiety | Blog";
     this.setState({ id: this.props.match.params });
     axios
       .get(
@@ -12,14 +13,15 @@ class BlogPost extends Component {
       )
       .then((res) => {
         this.setState(res.data);
+        document.title = `Brixiety | Blog | ${this.state.title}`;
       });
   }
   render() {
     return (
       <div className="blogPost">
-          <h2>{this.state.title}</h2>
-          <h6>{moment(this.state.date).format("dddd, MMMM Do, YYYY")}</h6>
-          <div dangerouslySetInnerHTML={{ __html: this.state.content }} />
+        <h2>{this.state.title}</h2>
+        <h6>{moment(this.state.date).format("dddd, MMMM Do, YYYY")}</h6>
+        <div dangerouslySetInnerHTML={{ __html: this.state.content }} />
       </div>
     );
   }

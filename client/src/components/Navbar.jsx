@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const OTNavbar = () => {
   return (
     <div>
-      <Navbar className="navbar">
+      <Navbar expand="lg">
         <Navbar.Brand>
           <Link to="/" className="brandLink navLink">
             <img
