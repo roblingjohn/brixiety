@@ -9,12 +9,6 @@ class Archive extends Component {
   }
   comicArray = [...comicData].reverse();
 
-  // componentDidMount() {
-  //   this.comicArray = comicData.reverse
-  //   // console.log(comicData.reverse())
-  //   // console.log(this.comicArray)
-  // }
-
   render() {
     return (
       <div className="container">
@@ -26,10 +20,11 @@ class Archive extends Component {
                 <td style={{ textAlign: "right" }}>
                   {comic.date &&
                     moment(comic.date).format(
-                      (window.screen.width > 450 ? "MMMM" : "MMM") + " D, YYYY"
+                     "M/D/YY"
                     )}
-                </td>
+                </td><td>|</td>
                 <td style={{ textAlign: "right" }}>#{comic.comicNumber}: </td>
+                <td>|</td>
                 <td>
                   <Link to={`/comic/${comic.comicNumber}`}>
                     {comic.comicTitle}

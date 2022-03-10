@@ -25,7 +25,7 @@ class BlogArchive extends Component {
           <tbody>
             {this.blogPosts.map((post) => (
               <tr key={post.id}>
-                <td>{moment(post.date).format("MMMM DD, YYYY")}</td>
+                <td>{moment(post.date).format("MMMM D, YYYY")}</td>
                 <td><Link to={`/blog/post/${post.ID}`}>{post.title}</Link></td>
               </tr>
             ))}
