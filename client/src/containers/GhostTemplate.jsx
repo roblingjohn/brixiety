@@ -17,6 +17,7 @@ const GhostTemplate = () => {
       <img
         src={require("../assets/images/ghosttemplate.png")}
         className="comicImg"
+        alt="Template for ghost comic"
       />
     </div>
   );
