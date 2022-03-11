@@ -18,11 +18,9 @@ class Archive extends Component {
             {this.comicArray.map((comic) => (
               <tr>
                 <td style={{ textAlign: "right" }}>
-                  {comic.date &&
-                    moment(comic.date).format(
-                     "M/D/YY"
-                    )}
-                </td><td>|</td>
+                  {comic.date && moment(comic.date).format("M/D/YY")}
+                </td>
+                <td>|</td>
                 <td style={{ textAlign: "right" }}>#{comic.comicNumber}: </td>
                 <td>|</td>
                 <td>
