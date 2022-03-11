@@ -364,4 +364,11 @@ export default [
     titleText:
       "The sequel to this comic will feature her being suprised when our cat tries to eat them all.",
   },
+  {
+    comicNumber: 56,
+    date: "2022-03-11",
+    comicTitle: "Take a Walk",
+    titleText:
+      "The wind is blowing, the leaves are chirping, and I'm having an ongoing mental breakdown.",
+  },
 ];
