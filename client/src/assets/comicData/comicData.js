@@ -369,4 +369,10 @@ export default [
     titleText:
       "The wind is blowing, the leaves are chirping, and I'm having an ongoing mental breakdown.",
   },
+  {
+    comicNumber: 57,
+    comicTitle: "Office Job",
+    titleText:
+      "I haven't had anyone scold me over TPS reports, but if that ever happens I have my baseball bat ready.",
+  },
 ];
