@@ -373,6 +373,7 @@ export default [
   },
   {
     comicNumber: 57,
+    date: "2022-03-25",
     comicTitle: "Office Job",
     titleText:
       "I haven't had anyone scold me over TPS reports, but if that ever happens I have my baseball bat ready.",
