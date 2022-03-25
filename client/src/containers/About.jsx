@@ -22,15 +22,17 @@ class About extends Component {
         </p>
         <h3 className="faqQ">Who are you?</h3>
         <p>
-          My name is John. I'm in my early thirties and I live in Atlanta with
-          my lovely wife and three wonderful cats.
+          My name is John. I'm a 30-something web developer living in Atlanta
+          with my lovely wife and three wonderful cats.
         </p>
         <h3 className="faqQ">Why do you make comics using LEGO?</h3>
         <p>
           Well I wanted to make a relatable webcomic, but I can't draw to save
           my life. I realized I had thousands of dollars worth of LEGO sitting
           around doing nothing except providing me with dopamine, so I figured I
-          could make comics by taking pictures of them.
+          could make comics by taking pictures of them. If you really want to
+          know more, you can read about{" "}
+          <Link to="/blog/post/22">The Origins of Brixiety</Link>.
         </p>
         <h3 className="faqQ">How do you pronounce "Brixiety"?</h3>
         <p>brik-SY-eh-tee. It's a portmanteau of "brick" and "anxiety".</p>
@@ -84,7 +86,7 @@ class About extends Component {
           have me worried.
         </h3>
         <p>
-          Yeah, I'm doing fine all things considered. While many of these comics
+          Yeah, I'm honestly doing pretty well these days. While many of these comics
           are based on real life experiences, most are also exaggerated for
           comedic effect.
         </p>
