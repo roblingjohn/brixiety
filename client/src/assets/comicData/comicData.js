@@ -73,6 +73,7 @@ export default [
     date: "2021-04-01",
     comicTitle: "awkward lego man (April Fools)",
     titleText: "April Fools!",
+    className: "aprilFools",
   },
   {
     comicNumber: 13,
@@ -377,5 +378,12 @@ export default [
     comicTitle: "Office Job",
     titleText:
       "I haven't had anyone scold me over TPS reports, but if that ever happens I have my baseball bat ready.",
+  },
+  {
+    comicNumber: 58,
+    date: "2022-04-01",
+    comicTitle: "sad lego man",
+    titleText: "April fools!",
+    className: "aprilFools",
   },
 ];
