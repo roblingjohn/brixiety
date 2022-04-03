@@ -382,7 +382,7 @@ export default [
   {
     comicNumber: 58,
     date: "2022-04-01",
-    comicTitle: "sad lego man",
+    comicTitle: "sad lego man (April Fools)",
     titleText: "April fools!",
     className: "aprilFools",
   },
