@@ -34,7 +34,7 @@ class ComicDisplay extends Component {
     return (
       <div
         className={
-          this.state.comic.id === 12 || this.state.comic.id === "12"
+          this.state.comic.id === 12 || this.state.comic.id === "12" || this.state.comic.id === 58 || this.state.comic.id === "58"
             ? "aprilFools"
             : ""
         }

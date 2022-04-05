@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 class BlogArchive extends Component {
   componentDidMount = () => {
+    document.title = "Brixiety | Blog Archive";
     axios
       .get(
         "https://public-api.wordpress.com/rest/v1.1/sites/brixiety.wordpress.com/posts/"
@@ -25,7 +26,7 @@ class BlogArchive extends Component {
           <tbody>
             {this.blogPosts.map((post) => (
               <tr key={post.id}>
-                <td>{moment(post.date).format("MMMM DD, YYYY")}</td>
+                <td>{moment(post.date).format("MMMM D, YYYY")}</td>
                 <td><Link to={`/blog/post/${post.ID}`}>{post.title}</Link></td>
               </tr>
             ))}

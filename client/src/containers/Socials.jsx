@@ -16,7 +16,11 @@ class Socials extends Component {
           <li>
             <strong>
               Donate at{" "}
-              <a href="https://www.buymeacoffee.com/brixiety" target="_blank">
+              <a
+                href="https://www.buymeacoffee.com/brixiety"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Buy Me a Coffee
               </a>
             </strong>
@@ -39,7 +43,13 @@ class Socials extends Component {
               rel="noreferrer noopener"
             >
               @brixiety.comic
-            </a>
+            </a> {" | "} <a
+              href="https://www.instagram.com/john.brixiety/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              @john.brixiety
+            </a> {" (non-comic LEGO stuff)"}
           </li>
           <li>
             Twitter:{" "}
@@ -79,7 +89,8 @@ class Socials extends Component {
               rel="noreferrer noopener"
             >
               Brixiety Studios
-            </a> (coming soon!)
+            </a>{" "}
+            (coming soon!)
           </li>
           <li>
             email:{" "}
