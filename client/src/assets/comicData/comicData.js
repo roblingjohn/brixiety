@@ -393,4 +393,9 @@ export default [
     titleText:
       "No one may ever know the terrible secret that our house is not always in immaculate condtion.",
   },
+  {
+    comicNumber: 60,
+    comicTitle: "Warrant",
+    titleText: "I hereby sentence you to death by Poison.",
+  },
 ];
