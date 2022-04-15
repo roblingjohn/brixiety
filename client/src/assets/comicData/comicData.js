@@ -395,6 +395,7 @@ export default [
   },
   {
     comicNumber: 60,
+    date: "2022-04-15",
     comicTitle: "Warrant",
     titleText: "I hereby sentence you to death by Poison.",
   },
