@@ -399,4 +399,10 @@ export default [
     comicTitle: "Warrant",
     titleText: "I hereby sentence you to death by Poison.",
   },
+  {
+    comicNumber: 61,
+    date: "2022-04-22",
+    comicTitle: "Studies",
+    titleText: "C's get degrees, regardless of how much alcohol you consume."
+  }
 ];
