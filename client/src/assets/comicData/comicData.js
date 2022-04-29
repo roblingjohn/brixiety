@@ -1,5 +1,3 @@
-import moment from "moment";
-
 export default [
   {
     comicNumber: 1,
@@ -403,6 +401,12 @@ export default [
     comicNumber: 61,
     date: "2022-04-22",
     comicTitle: "Studies",
-    titleText: "C's get degrees, regardless of how much alcohol you consume."
-  }
+    titleText: "C's get degrees, regardless of how much alcohol you consume.",
+  },
+  {
+    comicNumber: 62,
+    date: "2022-04-29",
+    comicTitle: "Microwave",
+    titleText: "Why wait for properly cooked food when you can have kinda cooked food now?",
+  },
 ];
