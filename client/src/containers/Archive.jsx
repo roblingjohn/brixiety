@@ -20,9 +20,7 @@ class Archive extends Component {
                 <td style={{ textAlign: "right" }}>
                   {comic.date && moment(comic.date).format("M/D/YY")}
                 </td>
-                <td>|</td>
                 <td style={{ textAlign: "right" }}>#{comic.comicNumber}: </td>
-                <td>|</td>
                 <td>
                   <Link to={`/comic/${comic.comicNumber}`}>
                     {comic.comicTitle}
