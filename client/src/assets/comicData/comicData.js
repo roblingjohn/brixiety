@@ -407,6 +407,13 @@ export default [
     comicNumber: 62,
     date: "2022-04-29",
     comicTitle: "Microwave",
-    titleText: "Why wait for properly cooked food when you can have kinda cooked food now?",
+    titleText:
+      "Why wait for properly cooked food when you can have kinda cooked food now?",
+  },
+  {
+    comicNumber: 63,
+    date: "2022-05-06",
+    comicTitle: "Older Kid",
+    titleText: "But he sure did have great advice on getting away with not doing your homework.",
   },
 ];
