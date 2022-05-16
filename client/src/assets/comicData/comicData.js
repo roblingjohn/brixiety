@@ -414,6 +414,14 @@ export default [
     comicNumber: 63,
     date: "2022-05-06",
     comicTitle: "Older Kid",
-    titleText: "But he sure did have great advice on getting away with not doing your homework.",
+    titleText:
+      "But he sure did have great advice on getting away with not doing your homework.",
+  },
+  {
+    comicNumber: 64,
+    date: "2022-05-20",
+    comicTitle: "Hair",
+    titleText:
+      "No no, it looks great! Definitely worth the $250 you paid for it!",
   },
 ];
