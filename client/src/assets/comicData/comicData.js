@@ -424,4 +424,10 @@ export default [
     titleText:
       "No no, it looks great! Definitely worth the $250 you paid for it!",
   },
+  {
+    comicNumber: 65,
+    date: "2022-05-27",
+    comicTitle: "Relax",
+    titleText: "Existential dread can wait until Monday!",
+  },
 ];
