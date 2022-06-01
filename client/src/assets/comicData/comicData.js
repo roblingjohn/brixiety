@@ -430,4 +430,11 @@ export default [
     comicTitle: "Relax",
     titleText: "Existential dread can wait until Monday!",
   },
+  {
+    comicNumber: 66,
+    date: "2022-06-03",
+    comicTitle: "Deep in Thought",
+    titleText:
+      "She definitely doesn't need to know it's also mashed up with the Full House theme.",
+  },
 ];
