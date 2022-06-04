@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Row, Col } from "react-bootstrap";
-import comicData from "../assets/comicData/comicData"
+import comicData from "../assets/comicData/comicData";
 
 class NavButtons extends Component {
   state = {
@@ -61,8 +60,8 @@ class NavButtons extends Component {
 
   render() {
     return (
-      <Row className="navRow">
-        <Col className="navCol">
+      <div className="navRow row">
+        <div className="d-flex justify-content-end navCol col-6 pr-0">
           {this.state.comic.id > 1 && (
             <div>
               <Link to="/comic/1" id={1}>
@@ -76,9 +75,9 @@ class NavButtons extends Component {
               </Link>{" "}
             </div>
           )}
-        </Col>
+        </div>
 
-        <Col>
+        <div className="d-flex justify-content-start navCol col-6 pl-0">
           {this.state.comic.id < comicData.length && (
             <div>
               <Link
@@ -92,8 +91,8 @@ class NavButtons extends Component {
               </Link>
             </div>
           )}
-        </Col>
-      </Row>
+        </div>
+      </div>
     );
   }
 }
