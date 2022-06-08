@@ -437,4 +437,10 @@ export default [
     titleText:
       "She definitely doesn't need to know it's also mashed up with the Full House theme.",
   },
+  {
+    comicNumber: 67,
+    date: "2022-06-10",
+    comicTitle: "Vacation Money",
+    titleText: "But there's street parking right over there!"
+  }
 ];
