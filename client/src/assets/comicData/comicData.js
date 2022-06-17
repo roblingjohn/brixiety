@@ -441,6 +441,12 @@ export default [
     comicNumber: 67,
     date: "2022-06-10",
     comicTitle: "Vacation Money",
-    titleText: "But there's street parking right over there!"
-  }
+    titleText: "But there's street parking right over there!",
+  },
+  {
+    comicNumber: 68,
+    date: "2022-06-17",
+    comicTitle: "Every Summer",
+    titleText: "Is 95 really that much hotter than 85? I'll let you know when my skin stops melting off.",
+  },
 ];
