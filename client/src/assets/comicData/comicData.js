@@ -447,6 +447,13 @@ export default [
     comicNumber: 68,
     date: "2022-06-17",
     comicTitle: "Every Summer",
-    titleText: "Is 95 really that much hotter than 85? I'll let you know when my skin stops melting off.",
+    titleText:
+      "Is 95 really that much hotter than 85? I'll let you know when my skin stops melting off.",
+  },
+  {
+    comicNumber: 69,
+    date: "2022-06-24",
+    comicTitle: "Crippling",
+    titleText: "Turns out that answer was drugs. Who knew?",
   },
 ];
