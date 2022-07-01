@@ -456,4 +456,10 @@ export default [
     comicTitle: "Crippling",
     titleText: "Turns out that answer was drugs. Who knew?",
   },
+  {
+    comicNumber: 70,
+    date: "2022-07-01",
+    comicTitle: "News",
+    titleText: "I don't even have anything funny to put here. I'm so tired."
+  }
 ];
