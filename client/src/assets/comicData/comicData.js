@@ -460,6 +460,13 @@ export default [
     comicNumber: 70,
     date: "2022-07-01",
     comicTitle: "News",
-    titleText: "I don't even have anything funny to put here. I'm so tired."
-  }
+    titleText: "I don't even have anything funny to put here. I'm so tired.",
+  },
+  {
+    comicNumber: 71,
+    date: "2022-07-15",
+    comicTitle: "Work from Home",
+    titleText:
+      "Lock them out of the office? They just cry at the door the whole time.",
+  },
 ];
