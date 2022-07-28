@@ -469,4 +469,11 @@ export default [
     titleText:
       "Lock them out of the office? They just cry at the door the whole time.",
   },
+  {
+    comicNumber: 72,
+    date: "2022-07-29",
+    comicTitle: "Dating Show",
+    titleText:
+      "Real talk: watching crappy dating shows is a great way for new couples to learn a lot about what each other expect in relationships.",
+  },
 ];
