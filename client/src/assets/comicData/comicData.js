@@ -476,4 +476,10 @@ export default [
     titleText:
       "Real talk: watching crappy dating shows is a great way for new couples to learn a lot about what each other expect in relationships.",
   },
+  {
+    comicNumber: 73,
+    date: "2022-08-05",
+    comicTitle: "Construction",
+    titleText: "Is there a shortage of housing in this country? But the answer is not more unaforable condos."
+  }
 ];
