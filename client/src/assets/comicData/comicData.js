@@ -480,6 +480,14 @@ export default [
     comicNumber: 73,
     date: "2022-08-05",
     comicTitle: "Construction",
-    titleText: "Is there a shortage of housing in this country? But the answer is not more unaforable condos."
-  }
+    titleText:
+      "Is there a shortage of housing in this country? But the answer is not more unaforable condos.",
+  },
+  {
+    comicNumber: 74,
+    date: "2022-08-12",
+    comicTitle: "Little Voice",
+    titleText:
+      "I miss the other guy who always told me I was the greatest person in the world and I could do no wrong.",
+  },
 ];
