@@ -490,4 +490,10 @@ export default [
     titleText:
       "I miss the other guy who always told me I was the greatest person in the world and I could do no wrong.",
   },
+  {
+    comicNumber: 75,
+    date: "2022-08-19",
+    comicTitle: "Soup",
+    titleText: "This joke has been percolating in my head looking for an outlet for at least 20 years."
+  }
 ];
