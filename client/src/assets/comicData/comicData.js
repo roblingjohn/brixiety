@@ -494,6 +494,14 @@ export default [
     comicNumber: 75,
     date: "2022-08-19",
     comicTitle: "Soup",
-    titleText: "This joke has been percolating in my head looking for an outlet for at least 20 years."
-  }
+    titleText:
+      "This joke has been percolating in my head looking for an outlet for at least 20 years.",
+  },
+  {
+    comicNumber: 76,
+    date: "2022-08-26",
+    comicTitle: "Mirror",
+    titleText:
+      "Oh man, do other people have thoughts too? What is this crzy world?",
+  },
 ];
