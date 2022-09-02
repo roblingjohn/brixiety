@@ -504,4 +504,10 @@ export default [
     titleText:
       "Oh man, do other people have thoughts too? What is this crzy world?",
   },
+  {
+    comicNumber: 77,
+    date: "2022-09-02",
+    comicTitle: "Stop It",
+    titleText: "Alright, that's it. We're gonna cuddle right now, no arguing!",
+  },
 ];
