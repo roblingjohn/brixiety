@@ -510,4 +510,10 @@ export default [
     comicTitle: "Stop It",
     titleText: "Alright, that's it. We're gonna cuddle right now, no arguing!",
   },
+  {
+    comicNumber: 78,
+    date: "2022-09-09",
+    comicTitle: "Big Raise",
+    titleText: "Just kidding, I never got a big raise in my twenties.",
+  },
 ];
