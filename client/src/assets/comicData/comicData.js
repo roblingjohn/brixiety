@@ -516,4 +516,10 @@ export default [
     comicTitle: "Big Raise",
     titleText: "Just kidding, I never got a big raise in my twenties.",
   },
+  {
+    comicNumber: 79,
+    date: "2022-09-16",
+    comicTitle: "Find My Phone",
+    titleText: "I don't even know how to get to that dimension!"
+  }
 ];
