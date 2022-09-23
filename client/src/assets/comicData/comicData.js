@@ -520,6 +520,12 @@ export default [
     comicNumber: 79,
     date: "2022-09-16",
     comicTitle: "Find My Phone",
-    titleText: "I don't even know how to get to that dimension!"
-  }
+    titleText: "I don't even know how to get to that dimension!",
+  },
+  {
+    comicNumber: 80,
+    date: "2022-09-23",
+    comicTitle: "Video Call",
+    titleText: "Wait a minute, Alex is frozen.",
+  },
 ];
