@@ -528,4 +528,10 @@ export default [
     comicTitle: "Video Call",
     titleText: "Wait a minute, Alex is frozen.",
   },
+  {
+    comicNumber: 81,
+    date: "2022-09-30",
+    comicTitle: "Chilly",
+    titleText: "Now to spend the next five months cuddled up under a blanket.",
+  },
 ];
