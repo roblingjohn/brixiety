@@ -534,4 +534,10 @@ export default [
     comicTitle: "Chilly",
     titleText: "Now to spend the next five months cuddled up under a blanket.",
   },
+  {
+    comicNumber: 82,
+    date: "2022-10-7",
+    comicTitle: "Sigh",
+    titleText: "*sigh* I wish I didn't sigh so much."
+  }
 ];
