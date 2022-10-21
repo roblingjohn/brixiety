@@ -538,6 +538,12 @@ export default [
     comicNumber: 82,
     date: "2022-10-7",
     comicTitle: "Sigh",
-    titleText: "*sigh* I wish I didn't sigh so much."
-  }
+    titleText: "*sigh* I wish I didn't sigh so much.",
+  },
+  {
+    comicNumber: 83,
+    date: "2022-10-21",
+    comicTitle: "Hotel",
+    titleText: `"Now be quiet, some of us are tying to sleep here."`,
+  },
 ];
