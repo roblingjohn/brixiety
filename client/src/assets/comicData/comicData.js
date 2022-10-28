@@ -546,4 +546,10 @@ export default [
     comicTitle: "Hotel",
     titleText: `"Now be quiet, some of us are tying to sleep here."`,
   },
+  {
+    comicNumber: 84,
+    date: "2022-10-28",
+    comicTitle: "Costumes",
+    titleText: "So you don't want to be Fry and Zoidberg next year?",
+  },
 ];
