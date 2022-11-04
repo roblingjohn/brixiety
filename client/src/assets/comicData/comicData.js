@@ -552,4 +552,10 @@ export default [
     comicTitle: "Costumes",
     titleText: "So you don't want to be Fry and Zoidberg next year?",
   },
+  {
+    comicNumber: 85,
+    date: "2022-11-4",
+    comicTitle: "Social Media",
+    titleText: "Follow us on Facebook, Instagram, or Twitter!",
+  },
 ];
