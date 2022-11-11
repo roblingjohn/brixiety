@@ -558,4 +558,10 @@ export default [
     comicTitle: "Social Media",
     titleText: "Follow us on Facebook, Instagram, or Twitter!",
   },
+  {
+    comicNumber: 86,
+    date: "2022-11-11",
+    comicTitle: "Lyrics",
+    titleText: `My personal favorite for this is "Last Christmas", but that's not seasonably appropriate.`,
+  },
 ];
