@@ -564,4 +564,10 @@ export default [
     comicTitle: "Lyrics",
     titleText: `My personal favorite for this is "Last Christmas", but that's not seasonably appropriate.`,
   },
+  {
+    comicNumber: 87,
+    date: "2022-11-17",
+    comicTitle: "Just Remembered",
+    titleText: "...uh...I forgot what it was.",
+  },
 ];
