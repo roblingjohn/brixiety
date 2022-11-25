@@ -570,4 +570,11 @@ export default [
     comicTitle: "Just Remembered",
     titleText: "...uh...I forgot what it was.",
   },
+  {
+    comicNumber: 88,
+    date: "2022-11-25",
+    comicTitle: "Family Gathering",
+    titleText:
+      "Last year my cousin's kid thought it was awesome that my favorite Pokémon was Charizard, so I'm going with yes.",
+  },
 ];
