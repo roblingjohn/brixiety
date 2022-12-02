@@ -577,4 +577,11 @@ export default [
     titleText:
       "Last year my cousin's kid thought it was awesome that my favorite Pokémon was Charizard, so I'm going with yes.",
   },
+  {
+    comicNumber: 89,
+    date: "2022-12-02",
+    comicTitle: "Soccer",
+    titleText:
+      "Then as soon as we get eliminated, I pay zero attention to soccer for the next four years.",
+  },
 ];
