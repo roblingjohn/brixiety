@@ -584,4 +584,11 @@ export default [
     titleText:
       "Then as soon as we get eliminated, I pay zero attention to soccer for the next four years.",
   },
+  {
+    comicNumber: 90,
+    date: "2022-12-09",
+    comicTitle: "Space Suit",
+    titleText:
+      "If you don't like Space Laundry, you're gonna hate Space Dishes.",
+  },
 ];
