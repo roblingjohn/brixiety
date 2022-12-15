@@ -9,9 +9,9 @@ const OTNavbar = () => {
         <Navbar.Brand>
           <Link to="/" className="brandLink navLink">
             <img
-              src={require("../assets/images/bricklogo.png")}
+              src={require("../assets/images/horizontallogo.png")}
               alt="Brixiety"
-              className="brickLogo"
+              className="horizontalLogo"
             />
           </Link>
         </Navbar.Brand>

@@ -6,6 +6,8 @@ body {
 .navbar {
   background-color: #0055bf;
   width: 100%;
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
 .App {
@@ -114,8 +116,8 @@ li {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-.brickLogo {
-  width: 130px;
+.horizontalLogo {
+  width: 170px;
 }
 
 .donate {
