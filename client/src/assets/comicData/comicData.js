@@ -591,4 +591,11 @@ export default [
     titleText:
       "If you don't like Space Laundry, you're gonna hate Space Dishes.",
   },
+  {
+    comicNumber: 91,
+    date: "2022-12-16",
+    comicTitle: "App",
+    titleText:
+      "Also I might have to change the arrangement of the icons on my home screen, and that will just totally screw up my muscle memory.",
+  },
 ];
