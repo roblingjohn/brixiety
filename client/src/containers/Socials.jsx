@@ -43,13 +43,16 @@ class Socials extends Component {
               rel="noreferrer noopener"
             >
               @brixiety.comic
-            </a> {" | "} <a
+            </a>{" "}
+            {" | "}{" "}
+            <a
               href="https://www.instagram.com/john.brixiety/"
               target="_blank"
               rel="noreferrer noopener"
             >
               @john.brixiety
-            </a> {" (non-comic LEGO stuff)"}
+            </a>{" "}
+            {" (non-comic LEGO stuff)"}
           </li>
           <li>
             Twitter:{" "}
@@ -72,6 +75,16 @@ class Socials extends Component {
             </a>
           </li>
           <li>
+            Imgur:{" "}
+            <a
+              href="https://imgur.com/user/brixiety"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              brixiety
+            </a>
+          </li>
+          <li>
             Tumblr:{" "}
             <a
               href="https://brixiety.tumblr.com/"
@@ -79,7 +92,8 @@ class Socials extends Component {
               rel="noreferrer noopener"
             >
               brixiety
-            </a>
+            </a>{" "}
+            (defunct)
           </li>
           <li>
             YouTube:{" "}
