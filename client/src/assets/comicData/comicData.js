@@ -598,4 +598,10 @@ export default [
     titleText:
       "Also I might have to change the arrangement of the icons on my home screen, and that will just totally screw up my muscle memory.",
   },
+  {
+    comicNumber: 92,
+    date: "2022-12-23",
+    comicTitle: "Christmas Wish",
+    titleText: "Boy, this year sure flew by, huh?",
+  },
 ];
