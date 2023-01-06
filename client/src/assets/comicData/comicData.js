@@ -604,4 +604,10 @@ export default [
     comicTitle: "Christmas Wish",
     titleText: "Boy, this year sure flew by, huh?",
   },
+  {
+    comicNumber: 93,
+    date: "2023-01-06",
+    comicTitle: "Forty",
+    titleText: "At my fifth consecutive thirtieth birthday party, duh.",
+  },
 ];
