@@ -610,4 +610,10 @@ export default [
     comicTitle: "Forty",
     titleText: "At my fifth consecutive thirtieth birthday party, duh.",
   },
+  {
+    comicNumber: 94,
+    date: "2023-01-13",
+    comicTitle: "Guitar",
+    titleText: `Welp, I've strummed the chords to "Let It Be". Don't know what else there is to do.`,
+  },
 ];
