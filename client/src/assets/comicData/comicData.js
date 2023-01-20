@@ -616,4 +616,10 @@ export default [
     comicTitle: "Guitar",
     titleText: `Welp, I've strummed the chords to "Let It Be". Don't know what else there is to do.`,
   },
+  {
+    comicNumber: 95,
+    date: "2022-01-20",
+    comicTitle: "Cat Person",
+    titleText: "Sure, they probably just want food, but I'll take it.",
+  },
 ];
