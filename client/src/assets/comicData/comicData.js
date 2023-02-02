@@ -566,7 +566,7 @@ export default [
   },
   {
     comicNumber: 87,
-    date: "2022-11-17",
+    date: "2022-11-18",
     comicTitle: "Just Remembered",
     titleText: "...uh...I forgot what it was.",
   },
@@ -621,5 +621,12 @@ export default [
     date: "2023-01-20",
     comicTitle: "Cat Person",
     titleText: "Sure, they probably just want food, but I'll take it.",
+  },
+  {
+    comicNumber: 96,
+    date: "2023-02-03",
+    comicTitle: "Bug",
+    titleText:
+      "I don't think I could claim submitting the wrong order could be a feature.",
   },
 ];
