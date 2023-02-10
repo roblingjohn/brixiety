@@ -629,4 +629,11 @@ export default [
     titleText:
       "I don't think I could claim submitting the wrong order could be a feature.",
   },
+  {
+    comicNumber: 97,
+    date: "2023-02-10",
+    comicTitle: "Time Travel",
+    titleText:
+      "Oh, and the White Sox win the World Series this year. Yeah, weird I know. I don't know how to gamble, but if you can figure that out...",
+  },
 ];
