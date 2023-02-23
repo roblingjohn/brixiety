@@ -636,4 +636,10 @@ export default [
     titleText:
       "Oh, and the White Sox win the World Series this year. Yeah, weird I know. I don't know how to gamble, but if you can figure that out...",
   },
+  {
+    comicNumber: 98,
+    date: "2023-02-24",
+    comicTitle: "Benjamin",
+    titleText: '"Call me when you have two consecutive Grover Clevelands.',
+  },
 ];
