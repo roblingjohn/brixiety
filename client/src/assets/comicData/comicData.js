@@ -642,4 +642,10 @@ export default [
     comicTitle: "Benjamin",
     titleText: '"Call me when you have two consecutive Grover Clevelands.',
   },
+  {
+    comicNumber: 99,
+    date: "2023-03-03",
+    comicTitle: "Big",
+    titleText: "Okay buddy, time to trim your nails!",
+  },
 ];
