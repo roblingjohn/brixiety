@@ -648,4 +648,11 @@ export default [
     comicTitle: "Big",
     titleText: "Okay buddy, time to trim your nails!",
   },
+  {
+    comicNumber: 100,
+    date: "2023-03-10",
+    comicTitle: "Outside",
+    titleText:
+      "I'm not saying I didn't have this issue before COVID broke out, but it definitely didn't help.",
+  },
 ];
