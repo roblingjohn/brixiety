@@ -655,4 +655,10 @@ export default [
     titleText:
       "I'm not saying I didn't have this issue before COVID broke out, but it definitely didn't help.",
   },
+  {
+    comicNumber: 101,
+    date: "2023-03-17",
+    comicTitle: "Coast is Clear",
+    titleText: "It was the cat.",
+  },
 ];
