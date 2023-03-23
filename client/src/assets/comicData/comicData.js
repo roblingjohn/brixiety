@@ -661,4 +661,11 @@ export default [
     comicTitle: "Coast is Clear",
     titleText: "It was the cat.",
   },
+  {
+    comicNumber: 102,
+    date: "2023-03-24",
+    comicTitle: "Organized",
+    titleText:
+      "No problem, when we clean the living room, we can just put stuff in the bedroom.",
+  },
 ];
