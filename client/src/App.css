@@ -157,9 +157,20 @@ li {
 
 td {
   text-align: left;
-  padding-left: 10px
+  padding-left: 10px;
 }
 
 .blogImg {
   max-width: 95%;
+}
+
+
+.nftImg {
+  width: 100%;
+}
+.nftButton {
+  width: 8rem;
+}
+.nftButton:disabled {
+  background-color: gray;
 }
