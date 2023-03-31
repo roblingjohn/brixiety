@@ -135,6 +135,7 @@ class Nft extends Component {
         "This was an April Fool's joke. There are no actualy NFTs. The forms don't actually do anything, but you still probably shouldn't put anything in them anyway."
       );
     }
+    document.addEventListener("contextmenu", this.disableRightClick);
   }
 
   handleSelect = (data) => {
@@ -146,6 +147,7 @@ class Nft extends Component {
 
   handleSubmit = () => {
     this.setState({ currentSection: "loading" });
+    document.removeEventListener("contextmenu", this.disableRightClick);
     setTimeout(() => {
       this.setState({ currentSection: "confirm" });
       setTimeout(() => {
@@ -153,6 +155,13 @@ class Nft extends Component {
       }, 3000);
     }, 3000);
   };
+
+  disableRightClick(event) {
+    event.preventDefault();
+    window.alert(
+      "Warning: Saving NFTs without paying is a federal crime. Prosecutors will be punished to the full extent of the law."
+    );
+  }
 
   render() {
     return (
