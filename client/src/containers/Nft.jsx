@@ -168,7 +168,12 @@ class Nft extends Component {
       <div className="container">
         {this.state.currentSection === "gallery" && (
           <div>
-            <h1>Brixiety NFTs</h1>
+            <h1>Brixiety NFT Collection</h1>
+            <p>
+              A unique collection of non-fungible tokens based on Brixiety
+              comics. Guaranteed to increase in value! Get yours before they're
+              all gone!
+            </p>
             <div className="row m-auto">
               {this.nfts.map((nft) => (
                 <NftDisplay
