@@ -129,13 +129,8 @@ class Nft extends Component {
   };
 
   componentDidMount() {
-    const today = moment().utc().local().format("MM-DD");
-    if (today !== "04-01") {
-      window.alert(
-        "This was an April Fool's joke. There are no actualy NFTs. The forms don't actually do anything, but you still probably shouldn't put anything in them anyway."
-      );
-    }
-    document.addEventListener("contextmenu", this.disableRightClick);
+    this.alertIfNotAprilFools();
+    window.addEventListener("contextmenu", this.disableRightClick);
   }
 
   handleSelect = (data) => {
@@ -147,7 +142,7 @@ class Nft extends Component {
 
   handleSubmit = () => {
     this.setState({ currentSection: "loading" });
-    document.removeEventListener("contextmenu", this.disableRightClick);
+    window.removeEventListener("contextmenu", this.disableRightClick);
     setTimeout(() => {
       this.setState({ currentSection: "confirm" });
       setTimeout(() => {
@@ -155,6 +150,17 @@ class Nft extends Component {
       }, 3000);
     }, 3000);
   };
+
+  alertIfNotAprilFools() {
+    const today = moment().utc().local().format("MM-DD");
+    setTimeout(() => {
+      if (today !== "04-01") {
+        window.alert(
+          "This was an April Fool's joke. There are no actualy NFTs. The forms don't actually do anything, but you still probably shouldn't put anything in them anyway."
+        );
+      }
+    }, 500);
+  }
 
   disableRightClick(event) {
     event.preventDefault();
