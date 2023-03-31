@@ -164,7 +164,6 @@ td {
   max-width: 95%;
 }
 
-
 .nftImg {
   width: 100%;
 }
@@ -173,4 +172,19 @@ td {
 }
 .nftButton:disabled {
   background-color: gray;
+}
+.text-input {
+  width: 100%;
+}
+.text-input-label {
+  margin-bottom: 2px;
+}
+.text-input-box {
+  width: 100%;
+}
+.nft-payment {
+  margin: auto;
+}
+.boolean-input {
+  width: 100%
 }
