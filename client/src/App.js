@@ -15,6 +15,7 @@ import GhostTemplate from "./containers/GhostTemplate";
 import Blog from "./containers/Blog";
 import BlogPost from "./containers/BlogPost";
 import BlogArchive from "./containers/BlogArchive";
+import Nft from "./containers/Nft";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route exact path="/comic/:id" component={ComicPage} />
           <Route exact path="/ghosttemplate" component={GhostTemplate} />
           <Route exact path="/aprilfools" component={AprilFools} />
+          <Route exact path="/nft" component={Nft} />
           <Route exact path="/blog" component={Blog} />
           <Route exact path="/blog/archive" component={BlogArchive} />
           <Route path="/blog/post/:id" component={BlogPost} />
