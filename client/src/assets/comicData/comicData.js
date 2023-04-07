@@ -668,4 +668,11 @@ export default [
     titleText:
       "No problem, when we clean the living room, we can just put stuff in the bedroom.",
   },
+  {
+    comicNumber: 103,
+    date: "2023-04-06",
+    comicTitle: "Domesticated",
+    titleText:
+      "This is an exaggeration, of course. Normally they just slowly tap roaches to death.",
+  },
 ];
