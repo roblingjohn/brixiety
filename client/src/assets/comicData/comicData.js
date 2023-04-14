@@ -670,9 +670,15 @@ export default [
   },
   {
     comicNumber: 103,
-    date: "2023-04-06",
+    date: "2023-04-07",
     comicTitle: "Domesticated",
     titleText:
       "This is an exaggeration, of course. Normally they just slowly tap roaches to death.",
+  },
+  {
+    comicNumber: 104,
+    date: "2023-04-14",
+    comicTitle: "Pedantic",
+    titleText: "Akshually, pedantic actually means...hey, where are you going?",
   },
 ];
