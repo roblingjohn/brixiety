@@ -681,4 +681,10 @@ export default [
     comicTitle: "Pedantic",
     titleText: "Akshually, pedantic actually means...hey, where are you going?",
   },
+  {
+    comicNumber: 105,
+    date: "2023-04-21",
+    comicTitle: "Background",
+    titleText: "Don't worry, his fight aginst Glup Shitto will be legendary!",
+  },
 ];
