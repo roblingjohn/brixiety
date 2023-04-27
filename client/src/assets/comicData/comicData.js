@@ -687,4 +687,11 @@ export default [
     comicTitle: "Background",
     titleText: "Don't worry, his fight against Glup Shitto will be legendary!",
   },
+  {
+    comicNumber: 106,
+    date: "2023-04-28",
+    comicTitle: "Kitchen",
+    titleText:
+      "Or I could just order pizza again. That box was from like a week ago.",
+  },
 ];
