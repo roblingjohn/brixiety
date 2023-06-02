@@ -694,4 +694,11 @@ export default [
     titleText:
       "Or I could just order pizza again. That box was from like a week ago.",
   },
+  {
+    comicNumber: 107,
+    date: "2023-06-02",
+    comicTitle: "Same As It Ever Was",
+    titleText:
+      "According to famed oceanographer David Byrne, there is in fact water at the bottom of the ocean.",
+  },
 ];
