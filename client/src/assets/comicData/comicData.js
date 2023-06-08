@@ -701,4 +701,11 @@ export default [
     titleText:
       "According to famed oceanographer David Byrne, there is in fact water at the bottom of the ocean.",
   },
+  {
+    comicNumber: 108,
+    date: "2023-06-09",
+    comicTitle: "Scheduled",
+    titleText:
+      "Some will say when I started drinking coffee every day at 8:18 AM, but I choose to believe it was when I reached a certain age.",
+  },
 ];
