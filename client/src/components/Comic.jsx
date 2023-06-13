@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { ComicContext } from "../containers/ComicPage";
+import { ComicContext } from "../components/ComicDisplay";
 
 const Comic = () => {
   const { comicTitle, titleText, comicNumber } = useContext(ComicContext);

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import comicData from "../assets/comicData/comicData";
-import { ComicContext } from "../containers/ComicPage";
+import { ComicContext } from "../components/ComicDisplay";
 import { Link } from "react-router-dom";
 
 const NavButtons = () => {
