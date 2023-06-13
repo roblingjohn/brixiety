@@ -1,18 +1,18 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { ComicContext } from "../components/ComicDisplay";
 
 const Comic = () => {
   const { comicTitle, titleText, comicNumber } = useContext(ComicContext);
-  const expanded = false
+  const [isExpanded, toggleExpand] = useState(false);
   return (
     <div>
       <h1>{comicTitle}</h1>
       <img
         src={require(`../assets/comics/${comicNumber}.png`)}
-        className={expanded ? "comicImgExpanded" : "comicImg"}
+        className={isExpanded ? "comicImgExpanded" : "comicImg"}
         alt={`Brixiety #${comicNumber}: "${comicTitle}"`}
         title={`${titleText}`}
-        // onClick={this.handleExpand}
+        onClick={() => toggleExpand(!isExpanded)}
       />
     </div>
   );
