@@ -9,7 +9,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <ComicDisplay id={comicData.length} />
+        <ComicDisplay comicNumber={comicData.length - 1} />
       </div>
     );
   }
