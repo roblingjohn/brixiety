@@ -708,4 +708,11 @@ export default [
     titleText:
       "Some will say when I started drinking coffee every day at 8:18 AM, but I choose to believe it was when I reached a certain age.",
   },
+  {
+    comicNumber: 109,
+    date: "2023-06-16",
+    comicTitle: "Compliments",
+    titleText:
+      "I'm sorry, I tuned out after you said I was handsome. You said something about a zeppelin?",
+  },
 ];
