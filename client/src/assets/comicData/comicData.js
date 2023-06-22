@@ -715,4 +715,11 @@ export default [
     titleText:
       "I'm sorry, I tuned out after you said I was handsome. You said something about a zeppelin?",
   },
+  {
+    comicNumber: 110,
+    date: "2023-06-23",
+    comicTitle: "Interview",
+    titleText:
+      "And I never imagined anyone would actually look at the mouseover text I make for every comic on the website!",
+  },
 ];
