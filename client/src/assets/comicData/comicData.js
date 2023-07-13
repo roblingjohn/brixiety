@@ -722,4 +722,10 @@ export default [
     titleText:
       "And I never imagined anyone would actually look at the mouseover text I make for every comic on the website!",
   },
+  {
+    comicNumber: 111,
+    date: "2023-07-14",
+    comicTitle: "Sober",
+    titleText: "Wait, why do we even have words for noses and fingers?",
+  },
 ];
