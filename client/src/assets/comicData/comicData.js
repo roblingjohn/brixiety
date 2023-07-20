@@ -728,4 +728,10 @@ export default [
     comicTitle: "Sober",
     titleText: "Wait, why do we even have words for noses and fingers?",
   },
+  {
+    comicNumber: 112,
+    date: "2023-07-21",
+    comicTitle: "Trash",
+    titleText: "Maybe I feel a little down in the dumps.",
+  },
 ];
