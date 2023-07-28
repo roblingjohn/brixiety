@@ -734,4 +734,11 @@ export default [
     comicTitle: "Trash",
     titleText: "Maybe I feel a little down in the dumps.",
   },
+  {
+    comicNumber: 113,
+    date: "2023-07-28",
+    comicTitle: "Hot Dog",
+    titleText:
+      "The concept of a hot dog is always more appealing to me than the actual eating of one.",
+  },
 ];
