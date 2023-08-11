@@ -741,4 +741,10 @@ export default [
     titleText:
       "The concept of a hot dog is always more appealing to me than the actual eating of one.",
   },
+  {
+    comicNumber: 114,
+    date: "2023-08-11",
+    comicTitle: "In the Way",
+    titleText: "Excuse me, gotta write the title text.",
+  },
 ];
