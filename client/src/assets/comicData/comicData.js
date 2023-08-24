@@ -747,4 +747,10 @@ export default [
     comicTitle: "In the Way",
     titleText: "Excuse me, gotta write the title text.",
   },
+  {
+    comicNumber: 115,
+    date: "2023-08-25",
+    comicTitle: "After Work",
+    titleText: "What, I'm supposed to just hang out with other people?",
+  },
 ];
