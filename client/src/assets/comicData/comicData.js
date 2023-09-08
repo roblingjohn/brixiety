@@ -753,4 +753,11 @@ export default [
     comicTitle: "After Work",
     titleText: "What, I'm supposed to just hang out with other people?",
   },
+  {
+    comicNumber: 116,
+    date: "2023-09-08",
+    comicTitle: "Coffee",
+    titleText:
+      "I tried setting the time to have it ready in the morning, but I set it for 8 PM instead of AM.",
+  },
 ];
