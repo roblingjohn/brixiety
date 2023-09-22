@@ -760,4 +760,11 @@ export default [
     titleText:
       "I tried setting the time to have it ready in the morning, but I set it for 8 PM instead of AM.",
   },
+  {
+    comicNumber: 117,
+    date: "2023-09-22",
+    comicTitle: "Out of Town",
+    titleText:
+      "I've also assembled a couple of LEGO sets this week. Amazing what you can do when you don't have to pay attention to another person.",
+  },
 ];
