@@ -767,4 +767,10 @@ export default [
     titleText:
       "I've also assembled a couple of LEGO sets this week. Amazing what you can do when you don't have to pay attention to another person.",
   },
+  {
+    comicNumber: 118,
+    date: "2022-10-06",
+    comicTitle: "Personality",
+    titleText: "Ooh, do you want to hear about their health issue?",
+  },
 ];
