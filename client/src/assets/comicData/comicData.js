@@ -769,8 +769,14 @@ export default [
   },
   {
     comicNumber: 118,
-    date: "2022-10-06",
+    date: "2023-10-06",
     comicTitle: "Personality",
     titleText: "Ooh, do you want to hear about their health issue?",
+  },
+  {
+    comicNumber: 119,
+    date: "2023-10-13",
+    comicTitle: "Vegetable",
+    titleText: "Why does my heart hurt?",
   },
 ];
