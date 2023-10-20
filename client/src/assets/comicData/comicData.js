@@ -779,4 +779,10 @@ export default [
     comicTitle: "Vegetable",
     titleText: "Why does my heart hurt?",
   },
+  {
+    comicNumber: 120,
+    date: "2023-10-20",
+    comicTitle: "Debt",
+    titleText: "You can do so many fun things with ramen.",
+  },
 ];
