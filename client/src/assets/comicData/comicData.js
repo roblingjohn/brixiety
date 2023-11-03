@@ -787,7 +787,7 @@ export default [
   },
   {
     comicNumber: 121,
-    date: "2023-11-3",
+    date: "2023-11-03",
     comicTitle: "Train",
     titleText:
       "There are also reports he is currently chewing on streetlights and knocking over people on bikes.",
