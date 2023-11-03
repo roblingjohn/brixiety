@@ -785,4 +785,11 @@ export default [
     comicTitle: "Debt",
     titleText: "You can do so many fun things with ramen.",
   },
+  {
+    comicNumber: 121,
+    date: "2023-11-3",
+    comicTitle: "Train",
+    titleText:
+      "There are also reports he is currently chewing on streetlights and knocking over people on bikes.",
+  },
 ];
