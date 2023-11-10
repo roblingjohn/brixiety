@@ -792,4 +792,11 @@ export default [
     titleText:
       "There are also reports he is currently chewing on streetlights and knocking over people on bikes.",
   },
+  {
+    comicNumber: 122,
+    date: "2023-11-10",
+    comicTitle: "Rough",
+    titleText:
+      "It's all been downhill since we stopped tuning our cameras off for video calls.",
+  },
 ];
