@@ -797,6 +797,13 @@ export default [
     date: "2023-11-10",
     comicTitle: "Rough",
     titleText:
-      "It's all been downhill since we stopped tuning our cameras off for video calls.",
+      "It's all been downhill since we stopped turning our cameras off for video calls.",
+  },
+  {
+    comicNumber: 123,
+    date: "2023-11-17",
+    comicTitle: "Startle",
+    titleText:
+      "To be fair, who could possibly expect another person in the house you share with your spouse?",
   },
 ];
