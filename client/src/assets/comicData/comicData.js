@@ -806,4 +806,10 @@ export default [
     titleText:
       "To be fair, who could possibly expect another person in the house you share with your spouse?",
   },
+  {
+    comicNumber: 124,
+    date: "2024-01-26",
+    comicTitle: "Spilled",
+    titleText: "Yeah, I'm fine. Why do you ask?",
+  },
 ];
