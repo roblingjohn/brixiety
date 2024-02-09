@@ -812,4 +812,11 @@ export default [
     comicTitle: "Spilled",
     titleText: "Yeah, I'm fine. Why do you ask?",
   },
+  {
+    comicNumber: 125,
+    date: "2024-02-09",
+    comicTitle: "Ten Years",
+    titleText:
+      "Also five years since the Second Part. Somehow that feels right.",
+  },
 ];
