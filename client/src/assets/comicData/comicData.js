@@ -826,4 +826,11 @@ export default [
     titleText:
       "For the 5 people who actually go to the website and read the title text, yes I did go almost a month without putting this on the website.",
   },
+  {
+    comicNumber: 127,
+    date: "2024-03-22",
+    comicTitle: "Nook",
+    titleText:
+      "Why am I making jokes about Animal Crossing four years after it came out? Because that's how long it took LEGO to make sets from it and my medium is very restrictive in that way.",
+  },
 ];
