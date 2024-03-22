@@ -819,4 +819,11 @@ export default [
     titleText:
       "Also five years since the Second Part. Somehow that feels right.",
   },
+  {
+    comicNumber: 126,
+    date: "2024-02-23",
+    comicTitle: "Stuff",
+    titleText:
+      "For the 5 people who actually go to the website and read the title text, yes I did go almost a month without putting this on the website.",
+  },
 ];
