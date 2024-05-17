@@ -833,4 +833,11 @@ export default [
     titleText:
       "Why am I making jokes about Animal Crossing four years after it came out? Because that's how long it took LEGO to make sets from it and my medium is very restrictive in that way.",
   },
+  {
+    comicNumber: 128,
+    date: "2024-05-17",
+    comicTitle: "Outlet",
+    titleText:
+      "People love comics about not being able to think of comic ideas. Super relateable.",
+  },
 ];
