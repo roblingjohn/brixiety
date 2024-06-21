@@ -840,4 +840,10 @@ export default [
     titleText:
       "People love comics about not being able to think of comic ideas. Super relateable.",
   },
+  {
+    comicNumber: 129,
+    date: "2024-06-21",
+    comicTitle: "Friends",
+    titleText: `Obviously I know when they said "We need to hang out soon" they actually meant "You're a terrible person and I never want to see you again"`,
+  },
 ];
