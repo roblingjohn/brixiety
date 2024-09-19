@@ -846,4 +846,11 @@ export default [
     comicTitle: "Friends",
     titleText: `Obviously I know when they said "We need to hang out soon" they actually meant "You're a terrible person and I never want to see you again"`,
   },
+  {
+    comicNumber: 130,
+    date: "2024-09-20",
+    comicTitle: "Flown By",
+    titleText:
+      "Still doesn't explain all the Christmas decorations going up in the stores.",
+  },
 ];
