@@ -26,6 +26,12 @@ class Socials extends Component {
             </strong>
           </li>
           <li>
+            email:{" "}
+            <a href="mailto:brixiety.comic@gmail.com">
+              brixiety.comic@gmail.com
+            </a>
+          </li>
+          <li>
             Facebook:{" "}
             <a
               href="https://www.facebook.com/brixiety"
@@ -55,15 +61,16 @@ class Socials extends Component {
             {" (non-comic LEGO stuff)"}
           </li>
           <li>
-            Twitter:{" "}
+            Bluesky:{" "}
             <a
-              href="https://twitter.com/BrixietyComic"
+              href="https://bsky.app/profile/brixiety.com"
               target="_blank"
               rel="noreferrer noopener"
             >
-              @BrixietyComic
+              @brixiety.com
             </a>
           </li>
+
           <li>
             Reddit:{" "}
             <a
@@ -85,6 +92,18 @@ class Socials extends Component {
             </a>
           </li>
           <li>
+            YouTube:{" "}
+            <a
+              href="https://www.youtube.com/channel/UCSdVQTD0VmEh0bsws6H5Rag/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Brixiety Studios
+            </a>{" "}
+            (coming soon!)
+          </li>
+          
+          <li>
             Tumblr:{" "}
             <a
               href="https://brixiety.tumblr.com/"
@@ -96,21 +115,15 @@ class Socials extends Component {
             (defunct)
           </li>
           <li>
-            YouTube:{" "}
+            Twitter:{" "}
             <a
-              href="https://www.youtube.com/channel/UCSdVQTD0VmEh0bsws6H5Rag/"
+              href="https://twitter.com/BrixietyComic"
               target="_blank"
               rel="noreferrer noopener"
             >
-              Brixiety Studios
+              @BrixietyComic
             </a>{" "}
-            (coming soon!)
-          </li>
-          <li>
-            email:{" "}
-            <a href="mailto:brixiety.comic@gmail.com">
-              brixiety.comic@gmail.com
-            </a>
+            (defunct)
           </li>
         </ul>
       </div>
