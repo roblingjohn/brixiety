@@ -853,4 +853,10 @@ export default [
     titleText:
       "Still doesn't explain all the Christmas decorations going up in the stores.",
   },
+  {
+    comicNumber: 131,
+    date: "2024-12-06",
+    comicTitle: "Dollar Bill",
+    titleText: "Now if you'll excuse me, I'm, going to go buy a $37 coffee.",
+  },
 ];
