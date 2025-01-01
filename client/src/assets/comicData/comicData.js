@@ -536,7 +536,7 @@ export default [
   },
   {
     comicNumber: 82,
-    date: "2022-10-7",
+    date: "2022-10-07",
     comicTitle: "Sigh",
     titleText: "*sigh* I wish I didn't sigh so much.",
   },
@@ -554,7 +554,7 @@ export default [
   },
   {
     comicNumber: 85,
-    date: "2022-11-4",
+    date: "2022-11-04",
     comicTitle: "Social Media",
     titleText: "Follow us on Facebook, Instagram, or Twitter!",
   },
