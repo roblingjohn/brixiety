@@ -859,4 +859,11 @@ export default [
     comicTitle: "Dollar Bill",
     titleText: "Now if you'll excuse me, I'm, going to go buy a $37 coffee.",
   },
+  {
+    comicNumber: 132,
+    date: "2025-01-31",
+    comicTitle: "Noises",
+    titleText:
+      "You always think you're crying wolf until an actual wolf shows up in your kitchen.",
+  },
 ];
