@@ -866,4 +866,11 @@ export default [
     titleText:
       "You always think you're crying wolf until an actual wolf shows up in your kitchen.",
   },
+  {
+    comicNumber: 133,
+    date: "2025-02-14",
+    comicTitle: "Meetup",
+    titleText:
+      "Some people didn't have unlimited texting in high school and it shows.",
+  },
 ];
