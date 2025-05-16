@@ -873,4 +873,11 @@ export default [
     titleText:
       "Some people didn't have unlimited texting in high school and it shows.",
   },
+  {
+    comicNumber: 134,
+    date: "2025-05-15",
+    comicTitle: "Parrot",
+    titleText:
+      "As a large language model, I am unable to create a tile text for this comic.",
+  },
 ];
