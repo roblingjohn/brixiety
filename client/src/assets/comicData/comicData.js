@@ -880,4 +880,11 @@ export default [
     titleText:
       "As a large language model, I am unable to create a tile text for this comic.",
   },
+  {
+    comicNumber: 135,
+    date: "2025-08-01",
+    comicTitle: "Rectangle",
+    titleText:
+      "It was really nice there having a couple years where I didn't wake up with existential dread every morning.",
+  },
 ];
