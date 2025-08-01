@@ -878,7 +878,7 @@ export default [
     date: "2025-05-15",
     comicTitle: "Parrot",
     titleText:
-      "As a large language model, I am unable to create a tile text for this comic.",
+      "As a large language model, I am unable to create a title text for this comic.",
   },
   {
     comicNumber: 135,
