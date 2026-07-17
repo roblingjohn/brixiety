@@ -23,7 +23,7 @@ class About extends Component {
         <h3 className="faqQ">Who are you?</h3>
         <p>
           My name is John. I'm a 30-something web developer living in Atlanta
-          with my lovely wife and three wonderful cats.
+          with my lovely wife, adorable baby, and three wonderful cats.
         </p>
         <h3 className="faqQ">Why do you make comics using LEGO?</h3>
         <p>
