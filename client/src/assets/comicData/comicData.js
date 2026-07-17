@@ -887,4 +887,11 @@ export default [
     titleText:
       "It was really nice there having a couple years where I didn't wake up with existential dread every morning.",
   },
+  {
+    comicNumber: 136,
+    date: "2026-07-16",
+    comicTitle: "Casual",
+    titleText:
+      "Apologies for the lack of posts for almost a year. And yes, I am tired.",
+  },
 ];
