@@ -894,4 +894,10 @@ export default [
     titleText:
       "Apologies for the lack of posts for almost a year. And yes, I am tired.",
   },
+  {
+    comicNumber: 137,
+    date: "2026-07-23",
+    comicTitle: "Milk",
+    titleText: "To be clear, I am not anti-latte, I am pro-defamiliarization",
+  },
 ];
